@@ -42,10 +42,10 @@
 	 <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>親愛的預約者 <s:property value="%{#session['loginId']}"/> 您好:</h1>
+        <h3>親愛的預約者 <s:property value="%{#session['loginId']}"/> 您好:</h3>
         <p>這是預約主頁</p>
         <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
-        <p><a href="<s:url action="logOut"/>">LogOut</a></p>
+        <p><a href="<s:url action="logOut"/>">登出系統</a></p>
       </div>
     </div>
 
