@@ -26,7 +26,7 @@
 		<!-- home link action -->
 		<action name="homeAction" class="com.sun.actions.LoginAction" method="home">
 			<interceptor-ref name="loginStack" />
-			<result name="success">/user.jsp</result>
+			<result name="success">/orderMain.jsp</result>
 		</action>
 		<!--   logout action  -->
 		<action name="logOut" class="com.sun.actions.LoginAction" method="logOut">
