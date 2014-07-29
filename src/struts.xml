@@ -3,7 +3,7 @@
 
 <struts>
 	<constant name="struts.devMode" value="true" />
-	<package name="login" extends="struts-default" namespace="/LoginUser">
+	<package name="login" extends="struts-default" namespace="/">
 		<interceptors>
 			<interceptor class="com.sun.interceptor.LoginInterceptor" name="loginInterceptor">
 			</interceptor>
@@ -18,7 +18,7 @@
 		</global-results>
 
 		<!--   login action  -->
-		<action name="loginUser" class="com.sun.actions.LoginAction" method="loginRegisterUser">
+		<action name="loginUser" class="com.sun.actions.LoginAction" method="loginRegisterUser">		
 			<result name="success" type="redirect">homeAction.action</result>
 			<result name="login">/login.jsp</result>
 		</action>
@@ -30,7 +30,7 @@
 		</action>
 		<!--   logout action  -->
 		<action name="logOut" class="com.sun.actions.LoginAction" method="logOut">
-			<result name="success">/login.jsp</result>
+			<result name="login">/login.jsp</result>
 		</action>
 	</package>
 </struts>

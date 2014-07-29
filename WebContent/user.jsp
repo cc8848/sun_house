@@ -8,7 +8,10 @@
 <title>user</title>
 </head>
 <body>
- 		Hello <s:property value="%{#session['loginId']}"/><br>
+	<div theme="bootstrap">
+		Hello <s:property value="%{#session['loginId']}"/><br>
         <a href="<s:url action="logOut"/>">LogOut</a>
+	</div>
+ 		
 </body>
 </html>

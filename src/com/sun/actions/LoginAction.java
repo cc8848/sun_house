@@ -27,7 +27,7 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	public String logOut() {
 		session.remove("loginId");
 		addActionMessage("You Have Been Successfully Logged Out");
-		return SUCCESS;
+		return LOGIN;
 	}
 
 	// ---------------------------- Login register user
