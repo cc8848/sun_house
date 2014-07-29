@@ -16,10 +16,39 @@
 <title>預約系統主頁</title>
 </head>
   <body role="document">
-	<div theme="bootstrap">
-		Hello <s:property value="%{#session['loginId']}"/><br>
-        <a href="<s:url action="logOut"/>">LogOut</a>
-	</div>
+  <div >
+          	
+          	</div>
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+         
+          <a class="navbar-brand" href="#">預約系統</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+          	
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+	 <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>親愛的預約者 <s:property value="%{#session['loginId']}"/> 您好:</h1>
+        <p>這是預約主頁</p>
+        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+        <p><a href="<s:url action="logOut"/>">LogOut</a></p>
+      </div>
+    </div>
+
  		
 </body>
 </html>
