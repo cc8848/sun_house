@@ -37,9 +37,15 @@
     <div class="jumbotron">
       <div class="container">
         <h3> <s:property value="%{#session['loginId']}"/> 您好<a class="btn btn-primary btn-lg" role="button">預約</a></h3>
-
-       <h2 class="sub-header">預約清單</h2>
-       
+		
+      
+       <div class="panel panel-default">
+        <div class="panel-heading">預約清單</div>
+  			<div class="panel-body">
+    			<p>說明: 預約時間是 24hr，預約如果有問題，請洽:  admin@sun.com</p>
+  			</div>
+      	
+      	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
           	<ul class="pagination">
 			  	<li><a href="#">&laquo;</a></li>
@@ -50,7 +56,7 @@
   				<li><a href="#">5</a></li>
   				<li><a href="#">&raquo;</a></li>
 			</ul>
-            <table class="table table-striped table-hover">
+          <table class="table table-striped table-hover">
               <thead>
                 <tr>
                   <th>編號</th>
@@ -175,7 +181,8 @@
                 </tr>
               </tbody>
             </table>
-          </div>
+          </div> <!-- table responsive end -->
+          </div> <!-- panel end -->
       </div>
        
     </div>
