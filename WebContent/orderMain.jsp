@@ -26,10 +26,11 @@
           <a class="navbar-brand" href="#">預約系統</a>
         </div>
         <div class="navbar-collapse collapse">
+        
           <form class="navbar-form navbar-right" role="form">
-          	<a href="<s:url action="logOut"/>">登出系統</a>
-      
+          <a class="btn btn-primary btn-lg" role="button" href="<s:url action="logOut"/>">登出系統</a>
           </form>
+          
         </div><!--/.navbar-collapse -->
       </div>
     </div>
