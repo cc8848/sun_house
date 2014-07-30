@@ -26,7 +26,7 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	
 	public String logOut() {
 		session.remove("loginId");
-		addActionMessage("You Have Been Successfully Logged Out");
+		addActionMessage("您已經成功登出");
 		return LOGIN;
 	}
 
@@ -37,7 +37,7 @@ public class LoginAction extends ActionSupport implements SessionAware {
 			session.put("loginId", userName);
 			return SUCCESS;
 		} else {
-			addActionError("Please Enter Valid emailId or Password");
+			addActionError("請輸入適當的使用者名稱與密碼。");
 			return LOGIN;
 		}
 	}
