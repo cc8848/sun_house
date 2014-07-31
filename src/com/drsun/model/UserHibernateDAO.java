@@ -22,6 +22,7 @@ public class UserHibernateDAO implements UserDAO{
 	            session.save(user);
 	            tx.commit();
 	            updateCount = 1;
+	            System.out.println(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  insert successful.");
 	        }
 	        catch(Exception ex)
 	        {
@@ -47,6 +48,7 @@ public class UserHibernateDAO implements UserDAO{
 	            session.delete(user);
 	            tx.commit();
 	            updateCount = 1;
+	            System.out.println(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  delete successful.");
 	        }
 	        catch(Exception ex)
 	        {
@@ -118,6 +120,7 @@ public class UserHibernateDAO implements UserDAO{
 	            session.update(user);
 	            tx.commit();
 	            updateCount = 1;
+	            System.out.println(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  update successful.");
 	        }
 	        catch(Exception ex)
 	        {
