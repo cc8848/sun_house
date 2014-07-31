@@ -1,12 +1,18 @@
 package com.drsun.model;
 
 import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
+
 import com.drsun.helper.HibernateUtil;
+
 import org.hibernate.*;
 
 public class UserHibernateDAO implements UserDAO{
 	
+	
+	Logger logger = Logger.getLogger(UserHibernateDAO.class);
 	
 	@Override
 	public int save(User user) {
@@ -22,12 +28,13 @@ public class UserHibernateDAO implements UserDAO{
 	            session.save(user);
 	            tx.commit();
 	            updateCount = 1;
-	            System.out.println(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  insert successful.");
+	            logger.info(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  insert successful.");
 	        }
 	        catch(Exception ex)
 	        {
 	            if(tx!=null) tx.rollback();
 	            System.out.println(ex.getMessage());
+	            logger.error(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  insert error.");
 	        }
 	       
 	        return updateCount;
@@ -48,12 +55,13 @@ public class UserHibernateDAO implements UserDAO{
 	            session.delete(user);
 	            tx.commit();
 	            updateCount = 1;
-	            System.out.println(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  delete successful.");
+	            logger.info(" User ID: "+ userId+ "   delete successful.");
 	        }
 	        catch(Exception ex)
 	        {
 	            if(tx != null) tx.rollback();
 	            System.out.println(ex.getMessage());
+	            logger.error(" User ID: "+ userId+ "  delete error.");
 	        }
 	 
 
@@ -73,11 +81,13 @@ public class UserHibernateDAO implements UserDAO{
 	            Query query = session.createQuery("from User");
 	            userList=query.list();
 	            tx.commit();
+	            logger.info(" User findALL successful.");
 	        }
 	        catch(Exception ex)
 	        {
 	            if(tx!=null) tx.rollback();
 	            System.out.println(ex.getMessage());
+	            logger.error(" User findALL error.");
 	        }
 	        
 
@@ -96,11 +106,13 @@ public class UserHibernateDAO implements UserDAO{
 	            tx=session.beginTransaction();
 	            user = (User)session.get(User.class,userId);
 	            tx.commit();
+	            logger.info(" User ID: "+  userId+ " found successful.");
 	        }
 	        catch(Exception ex)
 	        {
 	            if(tx!=null) tx.rollback();
 	            System.out.println(ex.getMessage());
+	            logger.error(" User ID: "+  userId+ " found error.");
 	        }
 	    
 	        
@@ -120,12 +132,13 @@ public class UserHibernateDAO implements UserDAO{
 	            session.update(user);
 	            tx.commit();
 	            updateCount = 1;
-	            System.out.println(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  update successful.");
+	            logger.info(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  update successful.");
 	        }
 	        catch(Exception ex)
 	        {
 	            if(tx!=null) tx.rollback();
 	            System.out.println(ex.getMessage());
+	            logger.error(" User ID: "+ user.getUserid()+ " ("+user.getName()+" )  update error.");
 	        }
 	  
 
