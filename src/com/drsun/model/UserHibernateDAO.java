@@ -7,11 +7,7 @@ import org.hibernate.*;
 
 public class UserHibernateDAO implements UserDAO{
 	
-	private SessionFactory factory = HibernateUtil.getSessionFactory();
-    public void setSessionFactory(SessionFactory factory){
-        this.factory=factory;
-    }
-
+	
 	@Override
 	public int save(User user) {
 		
@@ -39,32 +35,99 @@ public class UserHibernateDAO implements UserDAO{
 	@Override
 	public int delete(int userId) {
 		
-		Session session = factory.getCurrentSession();
-        User user = (User) session.load(User.class, userId);
-        session.delete(user);     
-        return 1;
+		 int updateCount = 0;
+	        //Session session = HibernateUtil.getSessionFactory().openSession();
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Transaction tx=null;
+	        try
+	        {
+	            tx=session.beginTransaction();
+	            User user = new User();
+	            session.load(user,userId);
+	            session.delete(user);
+	            tx.commit();
+	            updateCount = 1;
+	        }
+	        catch(Exception ex)
+	        {
+	            if(tx != null) tx.rollback();
+	            System.out.println(ex.getMessage());
+	        }
+	 
+
+	        return updateCount;
 	}
 
 	@Override
 	public List<User> findAll() {
 		
-		Session session = factory.getCurrentSession();
-        Query query = session.createQuery("from User");
-        return query.list();                   
+		 List<User> userList = null;
+	        //Session session = HibernateUtil.getSessionFactory().openSession();
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Transaction tx=null;
+	        try
+	        {
+	            tx=session.beginTransaction();
+	            Query query = session.createQuery("from User");
+	            userList=query.list();
+	            tx.commit();
+	        }
+	        catch(Exception ex)
+	        {
+	            if(tx!=null) tx.rollback();
+	            System.out.println(ex.getMessage());
+	        }
+	        
+
+	        return userList;               
 	}
 
 	@Override
 	public User findByPrimaryKey(int userId) {
 		 
-		Session session = factory.getCurrentSession();
-	    return (User) session.load(User.class, userId);
+		 User user = null;
+	        //Session session = HibernateUtil.getSessionFactory().openSession();
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Transaction tx=null;
+	        try
+	        {
+	            tx=session.beginTransaction();
+	            user = (User)session.get(User.class,userId);
+	            tx.commit();
+	        }
+	        catch(Exception ex)
+	        {
+	            if(tx!=null) tx.rollback();
+	            System.out.println(ex.getMessage());
+	        }
+	    
+	        
+
+	        return user;
 	}
 
 	@Override
 	public int update(User user) {
-		Session session = factory.getCurrentSession();
-        session.update(user);
-        return 1;
+		 int updateCount = 0;
+	        //Session session = HibernateUtil.getSessionFactory().openSession();
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Transaction tx=null;
+	        try
+	        {
+	            tx=session.beginTransaction();
+	            session.update(user);
+	            tx.commit();
+	            updateCount = 1;
+	        }
+	        catch(Exception ex)
+	        {
+	            if(tx!=null) tx.rollback();
+	            System.out.println(ex.getMessage());
+	        }
+	  
+
+	        
+	        return updateCount;
 	}
 
 	

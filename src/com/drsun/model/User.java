@@ -47,12 +47,15 @@ public class User implements java.io.Serializable{
 	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
+
 	public Date getCreatetime() {
 		return createtime;
 	}
+
 	public void setCreatetime(Date createtime) {
 		this.createtime = createtime;
 	}
+
 	public Date getModifytime() {
 		return modifytime;
 	}
