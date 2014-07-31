@@ -10,11 +10,13 @@ public class testHibernate3 {
 	public static void main(String[] args) {
 		
 		 UserDAO userDAO = new UserHibernateDAO();
+		 java.util.Date now = new java.util.Date();
 		 User user=new User();
 		 
-		 user.setName("test");
+		 user.setName("ด๚ธี");
 		 user.setEmail("poop@");
-		 user.setCreatetime(new Date(0));
+		
+		 user.setCreatetime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
 		 userDAO.save(user);
 
 	}

@@ -8,12 +8,12 @@ public class User implements java.io.Serializable{
 	private String name;
 	private String email;
 	private String mobile;
-	private Date createtime;
-	private Date modifytime;
+	private String createtime;
+	private String modifytime;
 	
 	public User(){}
 	
-	public User(String userid,String name,String email,String mobile,Date createtime,Date modifytime){
+	public User(String userid,String name,String email,String mobile,String createtime,String modifytime){
 		this.userid=userid;
 		this.name=name;
 		this.mobile=mobile;
@@ -48,18 +48,18 @@ public class User implements java.io.Serializable{
 		this.mobile = mobile;
 	}
 
-	public Date getCreatetime() {
+	public String  getCreatetime() {
 		return createtime;
 	}
 
-	public void setCreatetime(Date createtime) {
+	public void setCreatetime(String createtime) {
 		this.createtime = createtime;
 	}
 
-	public Date getModifytime() {
+	public String getModifytime() {
 		return modifytime;
 	}
-	public void setModifytime(Date modifytime) {
+	public void setModifytime(String modifytime) {
 		this.modifytime = modifytime;
 	}
 
