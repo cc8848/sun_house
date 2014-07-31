@@ -5,7 +5,7 @@
 	<constant name="struts.devMode" value="true" />
 	<package name="login" extends="struts-default" namespace="/">
 		<interceptors>
-			<interceptor class="com.sun.interceptor.LoginInterceptor" name="loginInterceptor">
+			<interceptor class="com.drsun.interceptor.LoginInterceptor" name="loginInterceptor">
 			</interceptor>
 			<interceptor-stack name="loginStack">
 				<interceptor-ref name="loginInterceptor" />
@@ -18,18 +18,18 @@
 		</global-results>
 
 		<!--   login action  -->
-		<action name="loginUser" class="com.sun.actions.LoginAction" method="loginRegisterUser">		
+		<action name="loginUser" class="com.drsun.actions.LoginAction" method="loginRegisterUser">		
 			<result name="success" type="redirect">homeAction.action</result>
 			<result name="login">/login.jsp</result>
 		</action>
 
 		<!-- home link action -->
-		<action name="homeAction" class="com.sun.actions.LoginAction" method="home">
+		<action name="homeAction" class="com.drsun.actions.LoginAction" method="home">
 			<interceptor-ref name="loginStack" />
 			<result name="success">/orderMain.jsp</result>
 		</action>
 		<!--   logout action  -->
-		<action name="logOut" class="com.sun.actions.LoginAction" method="logOut">
+		<action name="logOut" class="com.drsun.actions.LoginAction" method="logOut">
 			<result name="login">/login.jsp</result>
 		</action>
 	</package>
