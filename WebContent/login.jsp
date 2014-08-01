@@ -21,6 +21,8 @@
 <title>登入</title>
 </head>
 <body>
+<p class="navbar-text navbar-right"><button type="button" class="btn btn-default navbar-btn"><a href="http://localhost:8080/doctor-sun/" class="navbar-link">回首頁</a></button></p>
+
 <s:actionerror theme="bootstrap"/>
 <s:actionmessage theme="bootstrap"/>
 <s:fielderror theme="bootstrap"/>

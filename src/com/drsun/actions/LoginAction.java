@@ -26,7 +26,7 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	
 	public String logOut() {
 		session.remove("loginId");
-		addActionMessage("您已經成功登出");
+		addActionMessage("您已經成功登出 ");
 		return LOGIN;
 	}
 
