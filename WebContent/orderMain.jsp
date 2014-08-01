@@ -1,4 +1,5 @@
 <%@taglib uri="/struts-tags" prefix="s"%>
+<%@taglib prefix="display" uri="http://displaytag.sf.net"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -54,30 +55,17 @@
   				<li><a href="#">5</a></li>
   				<li><a href="#">&raquo;</a></li>
 			</ul>
-          <table class="table table-striped table-hover">
-              <thead>
-                <tr>
-                  <th>編號</th>
-                  <th>姓名</th>
-                  <th>電子郵件</th>
-                  <th>手機號碼</th>
-                  <th>建立時間</th>
-                  <th>修改時間</th>
-                </tr>
-              </thead>
-              <tbody>
-               	<s:iterator value="userList" >
-				<tr>
-					<td><s:property value="userid" /></td>
-					<td><s:property value="name" /></td>
-					<td><s:property value="email" /></td>
-					<td><s:property value="mobile" /></td>
-					<td><s:property value="createtime" /></td>
-					<td><s:property value="modifytime" /></td>
-				</tr>
-				</s:iterator>
-              </tbody>
-            </table>
+	
+             <display:table  id="userListTable" name="userList"  pagesize="3" requestURI="">
+             	<display:column property="userid" title="編號"/>
+				<display:column property="name" title="姓名"/>
+				<display:column property="email" title="電子郵件"/>
+				<display:column property="mobile" title="手機號碼"/>
+				<display:column property="createtime" title="建立時間"/>
+				<display:column property="modifytime" title="修改時間"/>
+             </display:table>
+           
+
           </div> <!-- table responsive end -->
           </div> <!-- panel end -->
       </div>
