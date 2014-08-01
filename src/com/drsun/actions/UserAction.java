@@ -25,7 +25,7 @@ public class UserAction extends ActionSupport  implements  ModelDriven<User>{
 		return SUCCESS;
 	}
 	
-	public String findall(){
+	public String findAll(){
 		userList = userDAO.findAll();
 		return SUCCESS;
 	}

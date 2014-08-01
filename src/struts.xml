@@ -23,9 +23,9 @@
 			<result name="login">/login.jsp</result>
 		</action>
 		<!-- user link action -->
-		<action name="userAction" class="com.drsun.actions.UserAction" method="findall">
+		<action name="userAction" class="com.drsun.actions.UserAction" method="findAll">
 			<interceptor-ref name="loginStack" />
-			<result name="success" type="redirect">homeAction.action</result>
+			<result name="success">/orderMain.jsp</result>
 		</action>
 		<!-- home link action -->
 		<action name="homeAction" class="com.drsun.actions.LoginAction" method="home">
