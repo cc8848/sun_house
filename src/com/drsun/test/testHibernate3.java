@@ -13,7 +13,7 @@ public class testHibernate3 {
 		
 		 User user=new User();
 		 
-		 user.setName("´ú¸Õ");
+		 user.setName("¤ý¬f«Ø");
 		 user.setEmail("poop@");
 		 java.util.Date now = new java.util.Date();
 		 user.setCreatetime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
