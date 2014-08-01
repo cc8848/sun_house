@@ -13,14 +13,14 @@
 <script type="text/JavaScript" src="js/ie/ie10-viewport-bug-workaround.js"></script>  
 <script type="text/JavaScript" src="js/ie/ie-emulation-modes-warning.js"></script> 
  <link href="css/signin.css" rel="stylesheet">
-<title>預約系統主頁</title>
+<title>管理系統主頁</title>
 </head>
   <body role="document">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
          
-          <a class="navbar-brand" href="#">預約系統</a>
+          <a class="navbar-brand" href="#">管理系統</a>
         </div>
         <div class="navbar-collapse collapse">
         

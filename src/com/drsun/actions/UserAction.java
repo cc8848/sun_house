@@ -11,6 +11,10 @@ import com.opensymphony.xwork2.ModelDriven;
 
 public class UserAction extends ActionSupport  implements  ModelDriven<User>{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private User user = new User();
 	private List<User> userList = new ArrayList<User>();
 	private UserDAO userDAO = new UserHibernateDAO();
