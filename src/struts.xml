@@ -19,10 +19,14 @@
 
 		<!--   login action  -->
 		<action name="loginUser" class="com.drsun.actions.LoginAction" method="loginRegisterUser">		
-			<result name="success" type="redirect">homeAction.action</result>
+			<result name="success" type="redirect">userAction.action</result>
 			<result name="login">/login.jsp</result>
 		</action>
-
+		<!-- user link action -->
+		<action name="userAction" class="com.drsun.actions.UserAction" method="findall">
+			<interceptor-ref name="loginStack" />
+			<result name="success" type="redirect">homeAction.action</result>
+		</action>
 		<!-- home link action -->
 		<action name="homeAction" class="com.drsun.actions.LoginAction" method="home">
 			<interceptor-ref name="loginStack" />
