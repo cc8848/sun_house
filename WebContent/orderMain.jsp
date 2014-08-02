@@ -46,17 +46,8 @@
       	
       	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
-          	<ul class="pagination">
-			  	<li><a href="#">&laquo;</a></li>
- 			 	<li><a href="#">1</a></li>
-  				<li><a href="#">2</a></li>
-  				<li><a href="#">3</a></li>
-  				<li><a href="#">4</a></li>
-  				<li><a href="#">5</a></li>
-  				<li><a href="#">&raquo;</a></li>
-			</ul>
-	
-             <display:table  id="userListTable" name="userList"  pagesize="3" requestURI="">
+        
+             <display:table   name="userList"  pagesize="3" requestURI="" class="table table-striped table-hover ">
              	<display:column property="userid" title="編號"/>
 				<display:column property="name" title="姓名"/>
 				<display:column property="email" title="電子郵件"/>
@@ -65,7 +56,6 @@
 				<display:column property="modifytime" title="修改時間"/>
              </display:table>
            
-
           </div> <!-- table responsive end -->
           </div> <!-- panel end -->
       </div>
