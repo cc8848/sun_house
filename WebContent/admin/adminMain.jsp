@@ -1,4 +1,5 @@
 <%@taglib uri="/struts-tags" prefix="s"%>
+<%@taglib prefix="display" uri="http://displaytag.sf.net"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -6,25 +7,25 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/JavaScript" src="../js/jquery/jquery-1.11.1.js"></script> 
+<script type="text/JavaScript" src=../js/jquery/jquery-1.11.1.js"></script> 
 <script type="text/JavaScript" src="../bootstrap-3.2.0-dist/js/bootstrap.js"></script> 
 <LINK href=../bootstrap-3.2.0-dist/css/bootstrap.css  rel="stylesheet" type="text/css">
 <LINK href=../bootstrap-3.2.0-dist/css/bootstrap-responsive.css  rel="stylesheet" type="text/css">  
 <script type="text/JavaScript" src="../js/ie/ie10-viewport-bug-workaround.js"></script>  
 <script type="text/JavaScript" src="../js/ie/ie-emulation-modes-warning.js"></script> 
  <link href="../css/signin.css" rel="stylesheet">
-<title>管理系統主頁</title>
+<title>預約系統主頁</title>
 </head>
   <body role="document">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
          
-          <a class="navbar-brand" href="#">管理系統</a>
+          <a class="navbar-brand" href="#">預約系統</a>
         </div>
         <div class="navbar-collapse collapse">
         
-          <form class="navbar-form navbar-right" role="form">
+          <form class="navbar-form navbar-right" role="form" >
           <a class="btn btn-primary btn-lg" role="button" href="<s:url action="logOut"/>">登出系統</a>
           </form>
           
@@ -45,39 +46,16 @@
       	
       	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
-          	<ul class="pagination">
-			  	<li><a href="#">&laquo;</a></li>
- 			 	<li><a href="#">1</a></li>
-  				<li><a href="#">2</a></li>
-  				<li><a href="#">3</a></li>
-  				<li><a href="#">4</a></li>
-  				<li><a href="#">5</a></li>
-  				<li><a href="#">&raquo;</a></li>
-			</ul>
-          <table class="table table-striped table-hover">
-              <thead>
-                <tr>
-                  <th>編號</th>
-                  <th>姓名</th>
-                  <th>電子郵件</th>
-                  <th>手機號碼</th>
-                  <th>建立時間</th>
-                  <th>修改時間</th>
-                </tr>
-              </thead>
-              <tbody>
-               	<s:iterator value="userList" >
-				<tr>
-					<td><s:property value="userid" /></td>
-					<td><s:property value="name" /></td>
-					<td><s:property value="email" /></td>
-					<td><s:property value="mobile" /></td>
-					<td><s:property value="createtime" /></td>
-					<td><s:property value="modifytime" /></td>
-				</tr>
-				</s:iterator>
-              </tbody>
-            </table>
+        
+             <display:table   name="userList"  pagesize="3" requestURI="" class="table table-striped table-hover ">
+             	<display:column property="userid" title="編號"/>
+				<display:column property="name" title="姓名"/>
+				<display:column property="email" title="電子郵件"/>
+				<display:column property="mobile" title="手機號碼"/>
+				<display:column property="createtime" title="建立時間"/>
+				<display:column property="modifytime" title="修改時間"/>
+             </display:table>
+           
           </div> <!-- table responsive end -->
           </div> <!-- panel end -->
       </div>
