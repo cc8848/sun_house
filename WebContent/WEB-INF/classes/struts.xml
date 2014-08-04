@@ -9,5 +9,5 @@
      </package>
 	
 	
-	<include file="struts-orderlogin.xml" ></include>
+	<include file="struts-order.xml" ></include>
 </struts>
