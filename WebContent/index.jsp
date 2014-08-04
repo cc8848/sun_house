@@ -136,6 +136,7 @@
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="img/product1.png" alt="Generic placeholder image">
         </div>
+        
       </div>
 
    <hr class="featurette-divider">
