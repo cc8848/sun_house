@@ -35,7 +35,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">孫醫生的家</a>
+            <a class="navbar-brand" href="#">孫醫生診所</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -115,6 +115,7 @@
       <hr class="featurette-divider">
 
       <div class="row featurette">
+      <a id="about"></a>
         <div class="col-md-7">
           <h2 class="featurette-heading">關於孫醫生 <span class="text-muted"></span></h2>
           <p class="lead">經歷:</p>
@@ -127,6 +128,7 @@
        <hr class="featurette-divider">
 
       <div class="row featurette">
+       <a id="contact"></a>
         <div class="col-md-7">
           <h2 class="featurette-heading">連繫方式 <span class="text-muted"></span></h2>
           <p class="lead">電話: </p>
@@ -139,8 +141,8 @@
    <hr class="featurette-divider">
   <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#">回到首頁</a></p>
-        <p>&copy; 2014 孫醫生的家. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p class="pull-right"><a href="#">往上回首頁</a></p>
+        <p>&copy; 2014 孫醫生診所. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 </div>
 </body>
