@@ -7,13 +7,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/JavaScript" src="js/jquery/jquery-1.11.1.js"></script> 
-<script type="text/JavaScript" src="bootstrap-3.2.0-dist/js/bootstrap.js"></script> 
-<LINK href=bootstrap-3.2.0-dist/css/bootstrap.css  rel="stylesheet" type="text/css">
-<LINK href=bootstrap-3.2.0-dist/css/bootstrap-responsive.css  rel="stylesheet" type="text/css">  
-<script type="text/JavaScript" src="js/ie/ie10-viewport-bug-workaround.js"></script>  
-<script type="text/JavaScript" src="js/ie/ie-emulation-modes-warning.js"></script> 
- <link href="css/signin.css" rel="stylesheet">
+<script type="text/JavaScript" src=../js/jquery/jquery-1.11.1.js"></script> 
+<script type="text/JavaScript" src="../bootstrap-3.2.0-dist/js/bootstrap.js"></script> 
+<LINK href=../bootstrap-3.2.0-dist/css/bootstrap.css  rel="stylesheet" type="text/css">
+<LINK href=../bootstrap-3.2.0-dist/css/bootstrap-responsive.css  rel="stylesheet" type="text/css">  
+<script type="text/JavaScript" src="../js/ie/ie10-viewport-bug-workaround.js"></script>  
+<script type="text/JavaScript" src="../js/ie/ie-emulation-modes-warning.js"></script> 
+ <link href="../css/signin.css" rel="stylesheet">
 <title>預約系統主頁</title>
 </head>
   <body role="document">
@@ -25,7 +25,7 @@
         </div>
         <div class="navbar-collapse collapse">
         
-          <form class="navbar-form navbar-right" role="form">
+          <form class="navbar-form navbar-right" role="form" >
           <a class="btn btn-primary btn-lg" role="button" href="<s:url action="logOut"/>">登出系統</a>
           </form>
           

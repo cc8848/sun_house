@@ -1,9 +1,9 @@
- <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  "http://struts.apache.org/dtds/struts-2.3.dtd">
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
-	<constant name="struts.devMode" value="true" />
-	<package name="login" extends="struts-default" namespace="/">
+<package name="orderlogin" extends="struts-default" namespace="/orderlogin">
 		<interceptors>
 			<interceptor class="com.drsun.interceptor.LoginInterceptor" name="loginInterceptor">
 			</interceptor>
@@ -20,12 +20,12 @@
 		<!--   login action  -->
 		<action name="loginUser" class="com.drsun.actions.LoginAction" method="loginRegisterUser">		
 			<result name="success" type="redirect">userAction.action</result>
-			<result name="login">/login.jsp</result>
+			<result name="login">/orderlogin/login.jsp</result>
 		</action>
 		<!-- user link action -->
 		<action name="userAction" class="com.drsun.actions.UserAction" method="findAll">
 			<interceptor-ref name="loginStack" />
-			<result name="success">/orderMain.jsp</result>
+			<result name="success">/orderlogin/orderMain.jsp</result>
 		</action>
 		<!-- home link action -->
 		<action name="homeAction" class="com.drsun.actions.LoginAction" method="home">
@@ -34,7 +34,8 @@
 		</action>
 		<!--   logout action  -->
 		<action name="logOut" class="com.drsun.actions.LoginAction" method="logOut">
-			<result name="login">/login.jsp</result>
+			<result name="login">/orderlogin/login.jsp</result>
 		</action>
 	</package>
-</struts>
+	
+</struts>	
