@@ -5,35 +5,35 @@
 <struts>
 <package name="order" extends="struts-default" namespace="/order">
 		<interceptors>
-			<interceptor class="com.drsun.interceptor.LoginInterceptor" name="loginInterceptor">
+			<interceptor class="com.drsun.interceptor.OrderLoginInterceptor" name="OrderloginInterceptor">
 			</interceptor>
-			<interceptor-stack name="loginStack">
-				<interceptor-ref name="loginInterceptor" />
+			<interceptor-stack name="OrderloginStack">
+				<interceptor-ref name="OrderloginInterceptor" />
 				<interceptor-ref name="defaultStack" />
 			</interceptor-stack>
 		</interceptors>
 
 		<global-results>
-			<result name="login">/orderLogin.jsp</result>
+			<result name="login">/order/orderLogin.jsp</result>
 		</global-results>
 
 		<!--   login action  -->
-		<action name="loginUser" class="com.drsun.actions.LoginAction" method="loginRegisterUser">		
-			<result name="success" type="redirect">userAction.action</result>
+		<action name="OrderloginUser" class="com.drsun.actions.OrderLoginAction" method="loginRegisterUser">		
+			<result name="success" type="redirect">OrderUserAction.action</result>
 			<result name="login">/order/orderLogin.jsp</result>
 		</action>
 		<!-- user link action -->
-		<action name="userAction" class="com.drsun.actions.UserAction" method="findAll">
-			<interceptor-ref name="loginStack" />
+		<action name="OrderUserAction" class="com.drsun.actions.OrderUserAction" method="findAll">
+			<interceptor-ref name="OrderloginStack" />
 			<result name="success">/order/orderMain.jsp</result>
 		</action>
 		<!-- home link action -->
-		<action name="homeAction" class="com.drsun.actions.LoginAction" method="home">
-			<interceptor-ref name="loginStack" />
+		<action name="homeAction" class="com.drsun.actions.OrderLoginAction" method="home">
+			<interceptor-ref name="OrderloginStack" />
 			<result name="success">/order/orderMain.jsp</result>
 		</action>
 		<!--   logout action  -->
-		<action name="logOut" class="com.drsun.actions.LoginAction" method="logOut">
+		<action name="logOut" class="com.drsun.actions.OrderLoginAction" method="logOut">
 			<result name="login">/order/orderLogin.jsp</result>
 		</action>
 	</package>

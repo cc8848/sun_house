@@ -9,7 +9,7 @@ import com.drsun.model.UserHibernateDAO;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 
-public class UserAction extends ActionSupport  implements  ModelDriven<User>{
+public class OrderUserAction extends ActionSupport  implements  ModelDriven<User>{
 	
 	/**
 	 * 

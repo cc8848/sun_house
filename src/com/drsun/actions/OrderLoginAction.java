@@ -6,7 +6,7 @@ import org.apache.struts2.interceptor.SessionAware;
 
 import com.opensymphony.xwork2.ActionSupport;
 
-public class LoginAction extends ActionSupport implements SessionAware {
+public class OrderLoginAction extends ActionSupport implements SessionAware {
 	/**
 	 * 
 	 */
