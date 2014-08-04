@@ -116,8 +116,20 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">關於孫醫生 <span class="text-muted"></span></h2>
+          <p class="lead">經歷:</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/product1.png" alt="Generic placeholder image">
+        </div>
+      </div>
+      
+       <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">連繫方式 <span class="text-muted"></span></h2>
+          <p class="lead">電話: </p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="img/product1.png" alt="Generic placeholder image">
