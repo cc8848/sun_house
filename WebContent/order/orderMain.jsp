@@ -14,7 +14,7 @@
 <script type="text/JavaScript" src="../js/ie/ie10-viewport-bug-workaround.js"></script>  
 <script type="text/JavaScript" src="../js/ie/ie-emulation-modes-warning.js"></script> 
  <link href="../css/signin.css" rel="stylesheet">
-<title>預約系統主頁</title>
+<title>預約系統</title>
 </head>
   <body role="document">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">

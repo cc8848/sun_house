@@ -14,14 +14,14 @@
 <script type="text/JavaScript" src="../js/ie/ie10-viewport-bug-workaround.js"></script>  
 <script type="text/JavaScript" src="../js/ie/ie-emulation-modes-warning.js"></script> 
  <link href="../css/signin.css" rel="stylesheet">
-<title>預約系統主頁</title>
+<title>管理系統</title>
 </head>
   <body role="document">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
          
-          <a class="navbar-brand" href="#">預約系統</a>
+          <a class="navbar-brand" href="#">管理系統</a>
         </div>
         <div class="navbar-collapse collapse">
         
@@ -35,13 +35,13 @@
 	 <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h3> <s:property value="%{#session['loginId']}"/> 您好<a class="btn btn-primary btn-lg" role="button">預約</a></h3>
+        <h3> <s:property value="%{#session['loginId']}"/> 您好<a class="btn btn-primary btn-lg" role="button">管理</a></h3>
 		
       
        <div class="panel panel-default">
-        <div class="panel-heading">預約清單</div>
+        <div class="panel-heading">使用者清單</div>
   			<div class="panel-body">
-    			<p>說明: 預約時間是 24hr，預約如果有問題，請洽:  admin@drsun.com</p>
+    			<p>說明: 如果有問題，請洽:  admin@drsun.com</p>
   			</div>
       	
       	 <!-- Table responsive begin -->	
