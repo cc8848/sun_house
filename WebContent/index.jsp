@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-    <title>孫醫生診所</title>
+    <title>瑞安診所</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -35,7 +35,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">孫醫生診所</a>
+            <a class="navbar-brand" href="#">瑞安診所</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -144,7 +144,7 @@
   <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">往上回首頁</a></p>
-        <p>&copy; 2014 孫醫生診所. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2014 瑞安診所. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
 </div>
 </body>
