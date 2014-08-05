@@ -49,6 +49,5 @@
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-core-2.3.16.3.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-jquery-plugin-3.7.1.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/xwork-core-2.3.16.3.jar"/>
-	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/javax.validation-1.0.0.GA.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

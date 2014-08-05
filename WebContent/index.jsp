@@ -45,13 +45,13 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">服務項目 <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
+                  <li><a href="#">憂鬱</a></li>
+                  <li><a href="#">躁鬱</a></li>
+                  <li><a href="#">心理諮商</a></li>
                   <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+                  <li class="dropdown-header">住院</li>
+                  <li><a href="#">其他醫療</a></li>
+                  
                 </ul>
               </li>
               <li><a href="order/orderLogin.jsp">與醫生預約</a></li>
