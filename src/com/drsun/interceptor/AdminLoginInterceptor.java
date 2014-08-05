@@ -25,10 +25,10 @@ public class AdminLoginInterceptor implements Interceptor {
 				.getInvocationContext().getSession();
 
 		if (sessionAttributes == null
-				|| sessionAttributes.get("loginId") == null) {
+				|| sessionAttributes.get("adminloginId") == null) {
 			return "login";
 		} else {
-			if (!((String) sessionAttributes.get("loginId")).equals(null)) {
+			if (!((String) sessionAttributes.get("adminloginId")).equals(null)) {
 				return invocation.invoke();
 			} else {
 				return "login";

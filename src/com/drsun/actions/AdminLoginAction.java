@@ -25,7 +25,7 @@ public class AdminLoginAction extends ActionSupport implements SessionAware {
 
 	
 	public String logOut() {
-		session.remove("loginId");
+		session.remove("adminloginId");
 		addActionMessage("管理者已經成功登出 ");
 		return LOGIN;
 	}
@@ -34,7 +34,7 @@ public class AdminLoginAction extends ActionSupport implements SessionAware {
 
 	public String loginRegisterUser() {
 		if (userName.equals("admin") && password.equals("password")) {
-			session.put("loginId", userName);
+			session.put("adminloginId", userName);
 			return SUCCESS;
 		} else {
 			addActionError("請輸入適當的管理者名稱與密碼。");
