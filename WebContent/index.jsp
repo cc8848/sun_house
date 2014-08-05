@@ -55,6 +55,7 @@
                 </ul>
               </li>
               <li><a href="order/orderLogin.jsp">與醫生預約</a></li>
+              <li><a href="admin/adminLogin.jsp">管理者系統</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -121,7 +122,7 @@
           <p class="lead">經歷:</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/product1.png" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="img/drsun1.jpg" alt="Generic placeholder image">
         </div>
       </div>
       
@@ -134,7 +135,7 @@
           <p class="lead">電話: </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="img/product1.png" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="img/drsun2.jpg" alt="Generic placeholder image">
         </div>
         
       </div>

@@ -6,4 +6,5 @@
 	<constant name="struts.devMode" value="true" />
 	<package name="default" namespace="/" extends="struts-default"></package>
 	<include file="struts-order.xml" ></include>
+	<include file="struts-admin.xml" ></include>
 </struts>

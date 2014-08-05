@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<package name="admin" extends="struts-default" namespace="/admin">
+		<interceptors>
+			<interceptor class="com.drsun.interceptor.AdminLoginInterceptor" name="AdminloginInterceptor">
+			</interceptor>
+			<interceptor-stack name="AdminloginStack">
+				<interceptor-ref name="AdminloginInterceptor" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+
+		<global-results>
+			<result name="login">/admin/adminLogin.jsp</result>
+		</global-results>
+
+		<!--   login action  -->
+		<action name="AdminloginUser" class="com.drsun.actions.AdminLoginAction" method="loginRegisterUser">		
+			<result name="success" type="redirect">AdminUserAction.action</result>
+			<result name="login">/admin/adminLogin.jsp</result>
+		</action>
+		<!-- user link action -->
+		<action name="AdminUserAction" class="com.drsun.actions.AdminUserAction" method="findAll">
+			<interceptor-ref name="AdminloginStack" />
+			<result name="success">/admin/adminMain.jsp</result>
+		</action>
+		<!-- home link action -->
+		<action name="homeAction" class="com.drsun.actions.AdminLoginAction" method="home">
+			<interceptor-ref name="AdminloginStack" />
+			<result name="success">/admin/adminMain.jsp</result>
+		</action>
+		<!--   logout action  -->
+		<action name="logOut" class="com.drsun.actions.AdminLoginAction" method="logOut">
+			<result name="login">/admin/adminLogin.jsp</result>
+		</action>
+	</package>
+	
+</struts>	

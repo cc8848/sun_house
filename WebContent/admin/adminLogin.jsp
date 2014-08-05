@@ -27,8 +27,8 @@
 <s:actionmessage theme="bootstrap"/>
 <s:fielderror theme="bootstrap"/>
 
-	<s:form id="idLoginForm" action="loginUser" namespace="/orderlogin" theme="bootstrap"  cssClass="form-signin" >
-		<s:textfield name="userName" placeholder="Username"  label="使用者名稱" cssClass="form-control" />
+	<s:form id="idLoginForm" action="AdminloginUser" namespace="/admin" theme="bootstrap"  cssClass="form-signin" >
+		<s:textfield name="userName" placeholder="Username"  label="管理者名稱" cssClass="form-control" />
 		<s:password name="password" placeholder="Password"  label="密碼"  cssClass="form-control" />
 		<s:submit  cssClass="btn btn-primary btn-block" value="登入" />
 	</s:form>
