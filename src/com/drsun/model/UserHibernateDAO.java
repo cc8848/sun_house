@@ -15,7 +15,7 @@ public class UserHibernateDAO implements UserDAO{
 		
 		  int updateCount = 0;
 	        
-	        //Session session = HibernateUtil.getSessionFactory().openSession();
+	        
 	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
@@ -40,7 +40,7 @@ public class UserHibernateDAO implements UserDAO{
 	public int delete(int userId) {
 		
 		 int updateCount = 0;
-	        //Session session = HibernateUtil.getSessionFactory().openSession();
+	       
 	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
@@ -94,7 +94,7 @@ public class UserHibernateDAO implements UserDAO{
 	public User findByPrimaryKey(int userId) {
 		 
 		 User user = null;
-	        //Session session = HibernateUtil.getSessionFactory().openSession();
+	       
 	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
@@ -119,7 +119,7 @@ public class UserHibernateDAO implements UserDAO{
 	@Override
 	public int update(User user) {
 		 int updateCount = 0;
-	        //Session session = HibernateUtil.getSessionFactory().openSession();
+	        
 	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
