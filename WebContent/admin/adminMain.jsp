@@ -40,20 +40,34 @@
       
        <div class="panel panel-default">
         <div class="panel-heading">使用者清單</div>
+        <!--  
   			<div class="panel-body">
     			<p>說明: 如果有問題，請洽:  admin@drsun.com</p>
   			</div>
-      	
+      	-->
       	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
         
-             <display:table   name="userList"  pagesize="3" requestURI="" class="table table-striped table-hover ">
+             <display:table   name="userList"  uid="row" pagesize="3" requestURI="" class="table table-striped table-hover ">
              	<display:column property="userid" title="編號"/>
 				<display:column property="name" title="姓名"/>
 				<display:column property="email" title="電子郵件"/>
 				<display:column property="mobile" title="手機號碼"/>
 				<display:column property="createtime" title="建立時間"/>
 				<display:column property="modifytime" title="修改時間"/>
+				<display:column title="編輯">
+   					 	<s:url id="modifyUrl" action="ModifyAdminUserAction"  >
+    						<s:param name="paramid" value="%{#attr.row.userid}" />
+    					</s:url>
+    				<s:a href="%{modifyUrl}">刪除</s:a>
+				</display:column>
+				<display:column title="刪除" >
+   					 	<s:url id="deleteUrl" action="DeleteAdminUserAction"  >
+    						<s:param name="paramid" value="%{#attr.row.userid}" />
+    					</s:url>
+    				<s:a href="%{deleteUrl}">刪除</s:a>
+				</display:column>
+				
              </display:table>
            
           </div> <!-- table responsive end -->

@@ -47,7 +47,7 @@
       	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
         
-             <display:table   name="userList"  pagesize="3" requestURI="" class="table table-striped table-hover ">
+             <display:table   name="userList"   pagesize="3" requestURI="" class="table table-striped table-hover ">
              	<display:column property="userid" title="編號"/>
 				<display:column property="name" title="姓名"/>
 				<display:column property="email" title="電子郵件"/>

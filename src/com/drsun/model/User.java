@@ -4,7 +4,7 @@ import java.sql.Date;
 
 public class User implements java.io.Serializable{
 	
-	private String userid;
+	private int userid;
 	private String name;
 	private String email;
 	private String mobile;
@@ -13,7 +13,7 @@ public class User implements java.io.Serializable{
 	
 	public User(){}
 	
-	public User(String userid,String name,String email,String mobile,String createtime,String modifytime){
+	public User(int userid,String name,String email,String mobile,String createtime,String modifytime){
 		this.userid=userid;
 		this.name=name;
 		this.mobile=mobile;
@@ -23,10 +23,10 @@ public class User implements java.io.Serializable{
 	}
 	
 	
-	public String getUserid() {
+	public int getUserid() {
 		return userid;
 	}
-	public void setUserid(String userid) {
+	public void setUserid(int userid) {
 		this.userid = userid;
 	}
 	public String getName() {

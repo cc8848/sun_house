@@ -36,6 +36,12 @@
 		<action name="logOut" class="com.drsun.actions.AdminLoginAction" method="logOut">
 			<result name="login">/admin/adminLogin.jsp</result>
 		</action>
+		
+		<!-- user delete action -->  
+		<action name="DeleteAdminUserAction" class="com.drsun.actions.AdminUserAction" method="delete">
+			<interceptor-ref name="AdminloginStack" />
+			<result name="success" type="redirect">AdminUserAction.action</result>
+		</action>
 	</package>
 	
 </struts>	
