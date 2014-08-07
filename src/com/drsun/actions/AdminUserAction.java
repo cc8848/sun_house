@@ -61,6 +61,13 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
         return SUCCESS;
     }
 	
+	public String modify()
+	{
+		
+		user=userDAO.findByPrimaryKey(getUserid());
+		return SUCCESS;
+	}
+	
 	public String findAll(){
 		userList = userDAO.findAll();
 		return SUCCESS;

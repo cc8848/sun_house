@@ -59,7 +59,7 @@
    					 	<s:url id="modifyUrl" action="ModifyAdminUserAction"  >
     						<s:param name="paramid" value="%{#attr.row.userid}" />
     					</s:url>
-    				<s:a href="%{modifyUrl}">刪除</s:a>
+    				<s:a href="%{modifyUrl}">編輯</s:a>
 				</display:column>
 				<display:column title="刪除" >
    					 	<s:url id="deleteUrl" action="DeleteAdminUserAction"  >

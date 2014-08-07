@@ -42,6 +42,12 @@
 			<interceptor-ref name="AdminloginStack" />
 			<result name="success" type="redirect">AdminUserAction.action</result>
 		</action>
+		
+		<!-- user modify action -->  
+		<action name="ModifyAdminUserAction" class="com.drsun.actions.AdminUserAction" method="modify">
+			<interceptor-ref name="AdminloginStack" />
+			<result name="success" type="redirect">AdminUserAction.action</result>
+		</action>
 	</package>
 	
 </struts>	
