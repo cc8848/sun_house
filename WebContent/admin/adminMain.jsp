@@ -1,5 +1,6 @@
 <%@taglib uri="/struts-tags" prefix="s"%>
 <%@taglib prefix="display" uri="http://displaytag.sf.net"%>
+<%@ taglib prefix="sj" uri="/struts-jquery-tags"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -14,6 +15,9 @@
 <script type="text/JavaScript" src="../js/ie/ie10-viewport-bug-workaround.js"></script>  
 <script type="text/JavaScript" src="../js/ie/ie-emulation-modes-warning.js"></script> 
  <link href="../css/signin.css" rel="stylesheet">
+ 
+  <sj:head jqueryui="true"/>
+  
 <title>管理系統</title>
 </head>
   <body role="document">
@@ -56,9 +60,20 @@
 				<display:column property="createtime" title="建立時間"/>
 				<display:column property="modifytime" title="修改時間"/>
 				<display:column title="編輯">
-   					 	<s:url id="modifyUrl" action="ModifyAdminUserAction"  >
+   					 	<s:url  id="modifyUrl" action="ModifyAdminUserAction"  >
     						<s:param name="paramid" value="%{#attr.row.userid}" />
     					</s:url>
+    				 
+    				<sj:dialog 
+    id="myeditdialog" 
+    autoOpen="false" 
+    modal="true" 
+    title="Edit User"
+/>
+
+<sj:a openDialog="myeditdialog" href="%{modifyUrl}" />
+
+
     				<s:a href="%{modifyUrl}">編輯</s:a>
 				</display:column>
 				<display:column title="刪除" >
