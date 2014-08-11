@@ -39,7 +39,7 @@
 	 <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h3> <s:property value="%{#session['loginId']}"/> 您好<a class="btn btn-primary btn-lg" role="button">管理</a></h3>
+        <h3> <s:property value="%{#session['adminloginId']}"/> 您好<sj:a cssClass="btn btn-primary btn-lg" role="button" openDialog="mydialog3">新增</sj:a></h3>
 		
       
        <div class="panel panel-default">
@@ -64,14 +64,7 @@
     						<s:param name="paramid" value="%{#attr.row.userid}" />
     					</s:url>
     				 
-    				<sj:dialog 
-    id="myeditdialog" 
-    autoOpen="false" 
-    modal="true" 
-    title="Edit User"
-/>
-
-<sj:a openDialog="myeditdialog" href="%{modifyUrl}" />
+    				
 
 
     				<s:a href="%{modifyUrl}">編輯</s:a>
