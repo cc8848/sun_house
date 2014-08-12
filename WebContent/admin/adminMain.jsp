@@ -61,29 +61,21 @@
       	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
         
-           <display:table   name="userList"  uid="row" sort="list" pagesize="3" requestURI="" defaultsort="1" defaultorder="descending"  class="table table-striped table-hover ">
+           <display:table   name="userList"  id="userrow" sort="list" pagesize="3" requestURI="" defaultsort="1" defaultorder="descending"  class="table table-striped table-hover ">
              	<display:column property="userid" title="編號" sortable="true" headerClass="sortable"/>
 				<display:column property="name" title="姓名"/>
 				<display:column property="email" title="電子郵件"/>
 				<display:column property="mobile" title="手機號碼"/>
 				<display:column property="createtime" title="建立時間"/>
 				<display:column property="modifytime" title="修改時間"/>
+				<!--  
 				<display:column title="更新" href="preUpdateAction.do" paramId="userid"  paramProperty="userid" >
 				編輯
 				</display:column>
-				<display:column title="編輯" href="preUpdateAction.do" paramId="userid"  paramProperty="userid" >
+				-->
+				<display:column title="編輯"  >
 				
-    			<sj:dialog id="modifyUserDialog" modal="true"   autoOpen="false" title="編輯" >
-    			
-    				<s:form id="modifyuserform" action="ModifyAdminUserAction">
-    					
-     					<sj:textfield  value="%{#attr.row.userid}" /> 
-     					<sj:submit value="更新" />
-    				</s:form>
-    				
-    			</sj:dialog>	
-				
-				<sj:a openDialog="modifyUserDialog">編輯</sj:a>
+    			<a href="editAdminUser.jsp?selectedIndex=${userrow_rowNum}">編輯</a>
 				
 				</display:column>
 				
@@ -91,13 +83,15 @@
 				
 				<display:column title="刪除" >
    					 	<s:url id="deleteUrl" action="DeleteAdminUserAction"  >
-    						<s:param name="paramid" value="%{#attr.row.userid}" />
+    						<s:param name="paramid" value="%{#attr.userrow.userid}" />
     					</s:url>
     				<s:a href="%{deleteUrl}">刪除</s:a>
 				</display:column>
 				
 				
              </display:table>
+             
+          
            
           </div> <!-- table responsive end -->
           </div> <!-- panel end -->
