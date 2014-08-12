@@ -23,9 +23,7 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	private UserDAO userDAO = new UserHibernateDAO();
 	private int  userid;
 	private String paramid;
-	
-	
-	
+
 	public String getParamid() {
 		return paramid;
 	}
@@ -49,15 +47,15 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	}
 	
 	public String add(){
+		java.util.Date now = new java.util.Date();
+		user.setCreatetime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
 		userDAO.save(user);
 		return SUCCESS;
 	}
 	
 	public String delete()
     {
-		//HttpServletRequest request = (HttpServletRequest) ActionContext.getContext().get(ServletActionContext.HTTP_REQUEST);
         userDAO.delete(getUserid());
-       // userDAO.delete(getUserid());
         return SUCCESS;
     }
 	

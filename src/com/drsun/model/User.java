@@ -9,6 +9,7 @@ public class User implements java.io.Serializable{
 	private String email;
 	private String mobile;
 	private String createtime;
+	
 	private String modifytime;
 	
 	public User(){}
@@ -54,6 +55,7 @@ public class User implements java.io.Serializable{
 	}
 
 	public void setCreatetime(String createtime) {
+		
 		this.createtime = createtime;
 	}
 
