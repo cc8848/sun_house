@@ -88,6 +88,7 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	}
 	
 	public List<User> getUserList() {
+		
 		return userList;
 	}
 	
