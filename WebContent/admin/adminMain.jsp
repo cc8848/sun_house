@@ -61,27 +61,25 @@
       	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
         
-             <display:table   name="userList"  uid="row" pagesize="3" class="table table-striped table-hover ">
-             	<display:column property="userid" title="編號"  />
+            <display:table   name="userList"  uid="row" pagesize="3" requestURI="" class="table table-striped table-hover ">
+             	<display:column property="userid" title="編號"/>
 				<display:column property="name" title="姓名"/>
-				<display:column property="email" title="電子郵件" autolink="true"/>
+				<display:column property="email" title="電子郵件" />
 				<display:column property="mobile" title="手機號碼"/>
 				<display:column property="createtime" title="建立時間"/>
 				<display:column property="modifytime" title="修改時間"/>
 				<display:column title="編輯">
-   					 
-    			<sj:dialog id="modifyformdialog" title="編輯" autoOpen="false"> 
+   					<sj:dialog id="modifyformdialog" title="編輯" autoOpen="false"> 
     				<s:form id="modifyuserform" action="ModifyAdminUserAction" namespace="/admin" theme="bootstrap" cssClass="form-signin" > 
-     					<s:textfield id="userid" name="userid" label="userid" value="%{#attr.row.userid}" cssClass="form-control"  required="true"/><br/>
+     					<s:textfield id="id" name="id" label="userid" value="%{#attr.row.userid}" cssClass="form-control"  required="true"/><br/>
      					<s:textfield id="username" name="username" label="使用者姓名" value="%{#attr.row.name}" cssClass="form-control"  required="true"/><br/>
      					<s:textfield id="useremail" name="useremail" label="電子郵件" value="%{#attr.row.email}" cssClass="form-control"  required="true"/><br/> 
      					<s:textfield id="usermobile" name="usermobile" label="手機號碼" value="%{#attr.row.mobile}" cssClass="form-control"  /><br/>   
-     					<sj:submit formId="modifyuserform" targets="modifyformdialog" effect="slide" value="更新" indicator="indicator"/> 
+     					<sj:submit  value="更新" />
    					</s:form> 
     			</sj:dialog> 
 				<sj:a openDialog="modifyformdialog" >編輯</sj:a>
 				</display:column>
-				
 				<display:column title="刪除" >
    					 	<s:url id="deleteUrl" action="DeleteAdminUserAction"  >
     						<s:param name="paramid" value="%{#attr.row.userid}" />
