@@ -76,9 +76,11 @@
     			<sj:dialog id="modifyUserDialog" modal="true"   autoOpen="false" title="編輯" >
     			
     				<s:form id="modifyuserform" action="ModifyAdminUserAction">
-     					<s:textfield  value="%{#attr.row.userid}" /> 
+    					
+     					<sj:textfield  value="%{#attr.row.userid}" /> 
+     					<sj:submit value="更新" />
     				</s:form>
-    				<sj:submit formId="modifyuserform" value="更新" />
+    				
     			</sj:dialog>	
 				
 				<sj:a openDialog="modifyUserDialog">編輯</sj:a>

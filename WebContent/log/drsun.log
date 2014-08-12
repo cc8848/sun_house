@@ -4585,3 +4585,8 @@ Unexpected Exception caught setting '6578706f7274' on 'class com.drsun.actions.A
 [2014/08/12 19:09:24][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for pdf export. org.displaytag.export.DefaultPdfExportView was found, but required libraries are missing: com/lowagie/text/Element
 [2014/08/12 19:09:24][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for rtf export. org.displaytag.export.DefaultRtfExportView was found, but required libraries are missing: com/lowagie/text/Element
 [2014/08/12 19:09:24][INFO][org.displaytag.properties.TableProperties-536] No LocaleResolver configured.
+[2014/08/12 21:52:00][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 21:52:02][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 21:56:02][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 21:56:25][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 21:57:16][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
