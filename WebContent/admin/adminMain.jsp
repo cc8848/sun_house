@@ -72,11 +72,18 @@
    					 	<s:url  id="modifyUrl" action="ModifyAdminUserAction"  >
     						<s:param name="paramid" value="%{#attr.row.userid}" />
     					</s:url>
-    				 
-    				
-
-
-    				<s:a href="%{modifyUrl}">編輯</s:a>
+    				<sj:dialog id="modifyuser" title="編輯" autoOpen="false" maxHeight="true" maxWidth="true" modal="true">
+      					<!-- form of modify user -->
+      					<s:form id="modifyUserForm" action="ModifyAdminUserAction" namespace="/admin" theme="bootstrap" cssClass="form-signin" >
+      						<s:textfield id="username" name="name" label="使用者名稱" value="%{#attr.row.name}" cssClass="form-control"  required="true"/>
+      						<s:textfield id="useremail" name="email" label="電子郵件" value="%{#attr.row.email}" cssClass="form-control" required="true" />
+      						<s:textfield id="usermobile" name="mobile" label="手機號碼" value="%{#attr.row.mobile}" cssClass="form-control" />		
+      						<s:hidden id="userid" name="userid"  value="%{#attr.row.userid}" cssClass="form-control" />					
+      						<sj:submit  value="更新" />
+    					</s:form>
+			
+      				</sj:dialog>
+    				<sj:a  openDialog="modifyuser">編輯</sj:a>
 				</display:column>
 				<display:column title="刪除" >
    					 	<s:url id="deleteUrl" action="DeleteAdminUserAction"  >

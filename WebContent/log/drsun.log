@@ -783,3 +783,1193 @@
 [2014/08/12 08:33:40][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-s] didn't match acceptedPattern pattern!
 [2014/08/12 08:34:05][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
 [2014/08/12 08:34:16][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 08:38:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Hibernate Commons Annotations 3.2.0.Final
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate 3.6.0.Final
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] hibernate.properties not found
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Bytecode provider name : javassist
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] using JDK 1.4 java.sql.Timestamp handling
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] configuring from resource: /hibernate.cfg.xml
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configuration resource: /hibernate.cfg.xml
+[2014/08/12 08:38:46][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Reading mappings from resource : com/drsun/model/User.hbm.xml
+[2014/08/12 08:38:46][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configured SessionFactory: null
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Mapping class: com.drsun.model.User -> user
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate Validator not found: ignoring
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/psyorder
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+[2014/08/12 08:38:46][INFO][org.slf4j.impl.JCLLoggerAdapter-263] autocommit mode: false
+[2014/08/12 08:38:46][INFO][com.mchange.v2.log.MLog$1-124] MLog clients using log4j logging.
+[2014/08/12 08:38:46][INFO][com.mchange.v2.c3p0.C3P0Registry-248] Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+[2014/08/12 08:38:46][INFO][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@299c569f [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@7e567382 [ acquireIncrement -> 0, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgensx931jea00zhvezfx|3c0ee2c4, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@cc0ea84d [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgensx931jea00zhvezfx|152ec45e, jdbcUrl -> jdbc:mysql://localhost:3306/psyorder, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgensx931jea00zhvezfx|761f5d03, numHelperThreads -> 3 ]
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Database ->
+       name : MySQL
+    version : 5.5.22
+      major : 5
+      minor : 5
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using default transaction strategy (direct JDBC transactions)
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic flush during beforeCompletion(): disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic session close at end of transaction: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch size: 15
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch updates for versioned data: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Scrollable result sets: enabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC3 getGeneratedKeys(): enabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection release mode: auto
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Maximum outer join fetch depth: 2
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default batch fetch size: 1
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Generate SQL with comments: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL updates by primary key: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL inserts for batching: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using ASTQueryTranslatorFactory
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query language substitutions: {}
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JPA-QL strict compliance: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Second-level cache: enabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query cache: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Optimize cache for minimal puts: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Structured second-level cache entries: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Statistics: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Deleted entity synthetic identifier rollback: disabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default entity-mode: pojo
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Named query checking : enabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] building session factory
+[2014/08/12 08:38:47][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Not binding factory to JNDI, no JNDI name configured
+[2014/08/12 08:38:47][INFO][org.displaytag.export.ExportViewFactory-61] Initializing ExportViewFactory with type={csv,excel,xml,pdf,rtf}
+[2014/08/12 08:38:47][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for pdf export. org.displaytag.export.DefaultPdfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 08:38:47][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for rtf export. org.displaytag.export.DefaultRtfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 08:38:47][INFO][org.displaytag.properties.TableProperties-536] No LocaleResolver configured.
+[2014/08/12 08:38:55][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 08:39:27][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 08:39:45][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-o] didn't match acceptedPattern pattern!
+[2014/08/12 08:39:45][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 08:39:45][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-s] didn't match acceptedPattern pattern!
+[2014/08/12 09:06:46][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:10:20][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:10:42][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:10:53][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:11:10][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:11:10][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Hibernate Commons Annotations 3.2.0.Final
+[2014/08/12 09:11:10][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate 3.6.0.Final
+[2014/08/12 09:11:10][INFO][org.slf4j.impl.JCLLoggerAdapter-263] hibernate.properties not found
+[2014/08/12 09:11:10][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Bytecode provider name : javassist
+[2014/08/12 09:11:10][INFO][org.slf4j.impl.JCLLoggerAdapter-263] using JDK 1.4 java.sql.Timestamp handling
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] configuring from resource: /hibernate.cfg.xml
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configuration resource: /hibernate.cfg.xml
+[2014/08/12 09:11:11][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Reading mappings from resource : com/drsun/model/User.hbm.xml
+[2014/08/12 09:11:11][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configured SessionFactory: null
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Mapping class: com.drsun.model.User -> user
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate Validator not found: ignoring
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/psyorder
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] autocommit mode: false
+[2014/08/12 09:11:11][INFO][com.mchange.v2.log.MLog$1-124] MLog clients using log4j logging.
+[2014/08/12 09:11:11][INFO][com.mchange.v2.c3p0.C3P0Registry-248] Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+[2014/08/12 09:11:11][WARN][com.mchange.v2.c3p0.management.ActiveManagementCoordinator-77] A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[2014/08/12 09:11:11][INFO][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@a511503a [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@4145d30e [ acquireIncrement -> 0, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgensx931jffof71a6eqrj|570cea98, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@91d0c5 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgensx931jffof71a6eqrj|1b086f1a, jdbcUrl -> jdbc:mysql://localhost:3306/psyorder, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgensx931jffof71a6eqrj|2eb11267, numHelperThreads -> 3 ]
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Database ->
+       name : MySQL
+    version : 5.5.22
+      major : 5
+      minor : 5
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using default transaction strategy (direct JDBC transactions)
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic flush during beforeCompletion(): disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic session close at end of transaction: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch size: 15
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch updates for versioned data: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Scrollable result sets: enabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC3 getGeneratedKeys(): enabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection release mode: auto
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Maximum outer join fetch depth: 2
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default batch fetch size: 1
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Generate SQL with comments: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL updates by primary key: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL inserts for batching: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using ASTQueryTranslatorFactory
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query language substitutions: {}
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JPA-QL strict compliance: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Second-level cache: enabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query cache: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Optimize cache for minimal puts: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Structured second-level cache entries: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Statistics: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Deleted entity synthetic identifier rollback: disabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default entity-mode: pojo
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Named query checking : enabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] building session factory
+[2014/08/12 09:11:11][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Not binding factory to JNDI, no JNDI name configured
+[2014/08/12 09:11:12][INFO][org.displaytag.export.ExportViewFactory-61] Initializing ExportViewFactory with type={csv,excel,xml,pdf,rtf}
+[2014/08/12 09:11:12][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for pdf export. org.displaytag.export.DefaultPdfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:11:12][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for rtf export. org.displaytag.export.DefaultRtfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:11:12][INFO][org.displaytag.properties.TableProperties-536] No LocaleResolver configured.
+[2014/08/12 09:11:42][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:14:26][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:19:13][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:19:17][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Hibernate Commons Annotations 3.2.0.Final
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate 3.6.0.Final
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] hibernate.properties not found
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Bytecode provider name : javassist
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] using JDK 1.4 java.sql.Timestamp handling
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] configuring from resource: /hibernate.cfg.xml
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configuration resource: /hibernate.cfg.xml
+[2014/08/12 09:19:19][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Reading mappings from resource : com/drsun/model/User.hbm.xml
+[2014/08/12 09:19:19][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configured SessionFactory: null
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Mapping class: com.drsun.model.User -> user
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate Validator not found: ignoring
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/psyorder
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] autocommit mode: false
+[2014/08/12 09:19:19][INFO][com.mchange.v2.log.MLog$1-124] MLog clients using log4j logging.
+[2014/08/12 09:19:19][INFO][com.mchange.v2.c3p0.C3P0Registry-248] Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+[2014/08/12 09:19:19][WARN][com.mchange.v2.c3p0.management.ActiveManagementCoordinator-77] A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[2014/08/12 09:19:19][INFO][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@52cb324c [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ee6ea4 [ acquireIncrement -> 0, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgensx931jfq56g1gzvn47|4b56a2a5, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@94aac995 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgensx931jfq56g1gzvn47|18e39dad, jdbcUrl -> jdbc:mysql://localhost:3306/psyorder, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgensx931jfq56g1gzvn47|32aa636, numHelperThreads -> 3 ]
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Database ->
+       name : MySQL
+    version : 5.5.22
+      major : 5
+      minor : 5
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using default transaction strategy (direct JDBC transactions)
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic flush during beforeCompletion(): disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic session close at end of transaction: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch size: 15
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch updates for versioned data: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Scrollable result sets: enabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC3 getGeneratedKeys(): enabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection release mode: auto
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Maximum outer join fetch depth: 2
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default batch fetch size: 1
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Generate SQL with comments: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL updates by primary key: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL inserts for batching: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using ASTQueryTranslatorFactory
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query language substitutions: {}
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JPA-QL strict compliance: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Second-level cache: enabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query cache: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Optimize cache for minimal puts: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Structured second-level cache entries: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Statistics: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Deleted entity synthetic identifier rollback: disabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default entity-mode: pojo
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Named query checking : enabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] building session factory
+[2014/08/12 09:19:19][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Not binding factory to JNDI, no JNDI name configured
+[2014/08/12 09:19:20][WARN][org.slf4j.impl.JCLLoggerAdapter-359] SQL Error: 1048, SQLState: 23000
+[2014/08/12 09:19:20][ERROR][org.slf4j.impl.JCLLoggerAdapter-456] Column 'createtime' cannot be null
+[2014/08/12 09:19:20][ERROR][org.slf4j.impl.JCLLoggerAdapter-534] Could not synchronize database state with session
+org.hibernate.exception.ConstraintViolationException: Could not execute JDBC batch update
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:96)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:275)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:268)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:185)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:51)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1216)
+	at org.hibernate.impl.SessionImpl.managedFlush(SessionImpl.java:383)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:133)
+	at com.drsun.model.UserHibernateDAO.update(UserHibernateDAO.java:129)
+	at com.drsun.actions.AdminUserAction.modify(AdminUserAction.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeAction(DefaultActionInvocation.java:450)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invokeActionOnly(DefaultActionInvocation.java:289)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:252)
+	at org.apache.struts2.interceptor.DeprecationInterceptor.intercept(DeprecationInterceptor.java:41)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.debugging.DebuggingInterceptor.intercept(DebuggingInterceptor.java:256)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.DefaultWorkflowInterceptor.doIntercept(DefaultWorkflowInterceptor.java:167)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.validator.ValidationInterceptor.doIntercept(ValidationInterceptor.java:265)
+	at org.apache.struts2.interceptor.validation.AnnotationValidationInterceptor.doIntercept(AnnotationValidationInterceptor.java:68)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ConversionErrorInterceptor.intercept(ConversionErrorInterceptor.java:138)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:254)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:254)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:139)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.drsun.interceptor.AdminLoginInterceptor.intercept(AdminLoginInterceptor.java:32)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:562)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.BatchUpdateException: Column 'createtime' cannot be null
+	at com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:1269)
+	at com.mysql.jdbc.PreparedStatement.executeBatch(PreparedStatement.java:955)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:2465)
+	at org.hibernate.jdbc.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:70)
+	at org.hibernate.jdbc.AbstractBatcher.executeBatch(AbstractBatcher.java:268)
+	... 83 more
+[2014/08/12 09:19:20][INFO][org.displaytag.export.ExportViewFactory-61] Initializing ExportViewFactory with type={csv,excel,xml,pdf,rtf}
+[2014/08/12 09:19:20][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for pdf export. org.displaytag.export.DefaultPdfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:19:20][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for rtf export. org.displaytag.export.DefaultRtfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:19:20][INFO][org.displaytag.properties.TableProperties-536] No LocaleResolver configured.
+[2014/08/12 09:19:23][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:21:19][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:21:27][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Hibernate Commons Annotations 3.2.0.Final
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate 3.6.0.Final
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] hibernate.properties not found
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Bytecode provider name : javassist
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] using JDK 1.4 java.sql.Timestamp handling
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] configuring from resource: /hibernate.cfg.xml
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configuration resource: /hibernate.cfg.xml
+[2014/08/12 09:21:27][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Reading mappings from resource : com/drsun/model/User.hbm.xml
+[2014/08/12 09:21:27][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configured SessionFactory: null
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Mapping class: com.drsun.model.User -> user
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate Validator not found: ignoring
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/psyorder
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+[2014/08/12 09:21:27][INFO][org.slf4j.impl.JCLLoggerAdapter-263] autocommit mode: false
+[2014/08/12 09:21:27][INFO][com.mchange.v2.log.MLog$1-124] MLog clients using log4j logging.
+[2014/08/12 09:21:27][INFO][com.mchange.v2.c3p0.C3P0Registry-248] Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+[2014/08/12 09:21:27][WARN][com.mchange.v2.c3p0.management.ActiveManagementCoordinator-77] A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[2014/08/12 09:21:27][INFO][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@8d7ddcb [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@6ac555b5 [ acquireIncrement -> 0, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgensx931jfsw9q1igrngi|3af0e9fd, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@14942665 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgensx931jfsw9q1igrngi|2135a8df, jdbcUrl -> jdbc:mysql://localhost:3306/psyorder, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgensx931jfsw9q1igrngi|34679160, numHelperThreads -> 3 ]
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Database ->
+       name : MySQL
+    version : 5.5.22
+      major : 5
+      minor : 5
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using default transaction strategy (direct JDBC transactions)
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic flush during beforeCompletion(): disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic session close at end of transaction: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch size: 15
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch updates for versioned data: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Scrollable result sets: enabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC3 getGeneratedKeys(): enabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection release mode: auto
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Maximum outer join fetch depth: 2
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default batch fetch size: 1
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Generate SQL with comments: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL updates by primary key: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL inserts for batching: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using ASTQueryTranslatorFactory
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query language substitutions: {}
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JPA-QL strict compliance: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Second-level cache: enabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query cache: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Optimize cache for minimal puts: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Structured second-level cache entries: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Statistics: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Deleted entity synthetic identifier rollback: disabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default entity-mode: pojo
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Named query checking : enabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] building session factory
+[2014/08/12 09:21:28][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Not binding factory to JNDI, no JNDI name configured
+[2014/08/12 09:21:29][INFO][org.displaytag.export.ExportViewFactory-61] Initializing ExportViewFactory with type={csv,excel,xml,pdf,rtf}
+[2014/08/12 09:21:29][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for pdf export. org.displaytag.export.DefaultPdfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:21:29][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for rtf export. org.displaytag.export.DefaultRtfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:21:29][INFO][org.displaytag.properties.TableProperties-536] No LocaleResolver configured.
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:21:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:21:44][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Hibernate Commons Annotations 3.2.0.Final
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate 3.6.0.Final
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] hibernate.properties not found
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Bytecode provider name : javassist
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] using JDK 1.4 java.sql.Timestamp handling
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] configuring from resource: /hibernate.cfg.xml
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configuration resource: /hibernate.cfg.xml
+[2014/08/12 09:21:52][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Reading mappings from resource : com/drsun/model/User.hbm.xml
+[2014/08/12 09:21:52][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configured SessionFactory: null
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Mapping class: com.drsun.model.User -> user
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate Validator not found: ignoring
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/psyorder
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+[2014/08/12 09:21:52][INFO][org.slf4j.impl.JCLLoggerAdapter-263] autocommit mode: false
+[2014/08/12 09:21:52][INFO][com.mchange.v2.log.MLog$1-124] MLog clients using log4j logging.
+[2014/08/12 09:21:52][INFO][com.mchange.v2.c3p0.C3P0Registry-248] Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+[2014/08/12 09:21:52][INFO][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@d559a988 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ebd5277d [ acquireIncrement -> 0, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgensx931jftfegfruygt|776d7d0a, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@7b09510f [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgensx931jftfegfruygt|23d33f90, jdbcUrl -> jdbc:mysql://localhost:3306/psyorder, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgensx931jftfegfruygt|4d7c89bf, numHelperThreads -> 3 ]
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Database ->
+       name : MySQL
+    version : 5.5.22
+      major : 5
+      minor : 5
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using default transaction strategy (direct JDBC transactions)
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic flush during beforeCompletion(): disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic session close at end of transaction: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch size: 15
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch updates for versioned data: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Scrollable result sets: enabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC3 getGeneratedKeys(): enabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection release mode: auto
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Maximum outer join fetch depth: 2
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default batch fetch size: 1
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Generate SQL with comments: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL updates by primary key: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL inserts for batching: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using ASTQueryTranslatorFactory
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query language substitutions: {}
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JPA-QL strict compliance: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Second-level cache: enabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query cache: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Optimize cache for minimal puts: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Structured second-level cache entries: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Statistics: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Deleted entity synthetic identifier rollback: disabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default entity-mode: pojo
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Named query checking : enabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] building session factory
+[2014/08/12 09:21:53][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Not binding factory to JNDI, no JNDI name configured
+[2014/08/12 09:21:53][INFO][org.displaytag.export.ExportViewFactory-61] Initializing ExportViewFactory with type={csv,excel,xml,pdf,rtf}
+[2014/08/12 09:21:53][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for pdf export. org.displaytag.export.DefaultPdfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:21:53][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for rtf export. org.displaytag.export.DefaultRtfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:21:53][INFO][org.displaytag.properties.TableProperties-536] No LocaleResolver configured.
+[2014/08/12 09:21:57][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:26:47][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:26:58][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Hibernate Commons Annotations 3.2.0.Final
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate 3.6.0.Final
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] hibernate.properties not found
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Bytecode provider name : javassist
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] using JDK 1.4 java.sql.Timestamp handling
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] configuring from resource: /hibernate.cfg.xml
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configuration resource: /hibernate.cfg.xml
+[2014/08/12 09:27:07][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Reading mappings from resource : com/drsun/model/User.hbm.xml
+[2014/08/12 09:27:07][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configured SessionFactory: null
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Mapping class: com.drsun.model.User -> user
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate Validator not found: ignoring
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/psyorder
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+[2014/08/12 09:27:07][INFO][org.slf4j.impl.JCLLoggerAdapter-263] autocommit mode: false
+[2014/08/12 09:27:07][INFO][com.mchange.v2.log.MLog$1-124] MLog clients using log4j logging.
+[2014/08/12 09:27:07][INFO][com.mchange.v2.c3p0.C3P0Registry-248] Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+[2014/08/12 09:27:07][WARN][com.mchange.v2.c3p0.management.ActiveManagementCoordinator-77] A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[2014/08/12 09:27:08][INFO][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@25fab3f1 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@339e05aa [ acquireIncrement -> 0, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgensx931jg06nmmq9t98|24ee4bce, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@522ed337 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgensx931jg06nmmq9t98|4180add1, jdbcUrl -> jdbc:mysql://localhost:3306/psyorder, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgensx931jg06nmmq9t98|214d92ad, numHelperThreads -> 3 ]
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Database ->
+       name : MySQL
+    version : 5.5.22
+      major : 5
+      minor : 5
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using default transaction strategy (direct JDBC transactions)
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic flush during beforeCompletion(): disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic session close at end of transaction: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch size: 15
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch updates for versioned data: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Scrollable result sets: enabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC3 getGeneratedKeys(): enabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection release mode: auto
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Maximum outer join fetch depth: 2
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default batch fetch size: 1
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Generate SQL with comments: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL updates by primary key: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL inserts for batching: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using ASTQueryTranslatorFactory
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query language substitutions: {}
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JPA-QL strict compliance: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Second-level cache: enabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query cache: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Optimize cache for minimal puts: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Structured second-level cache entries: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Statistics: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Deleted entity synthetic identifier rollback: disabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default entity-mode: pojo
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Named query checking : enabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] building session factory
+[2014/08/12 09:27:08][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Not binding factory to JNDI, no JNDI name configured
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:27:10][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:28:01][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:28:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:28:30][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:28:31][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Hibernate Commons Annotations 3.2.0.Final
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate 3.6.0.Final
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] hibernate.properties not found
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Bytecode provider name : javassist
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] using JDK 1.4 java.sql.Timestamp handling
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] configuring from resource: /hibernate.cfg.xml
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configuration resource: /hibernate.cfg.xml
+[2014/08/12 09:28:35][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Reading mappings from resource : com/drsun/model/User.hbm.xml
+[2014/08/12 09:28:35][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configured SessionFactory: null
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Mapping class: com.drsun.model.User -> user
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate Validator not found: ignoring
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/psyorder
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] autocommit mode: false
+[2014/08/12 09:28:35][INFO][com.mchange.v2.log.MLog$1-124] MLog clients using log4j logging.
+[2014/08/12 09:28:35][INFO][com.mchange.v2.c3p0.C3P0Registry-248] Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+[2014/08/12 09:28:35][INFO][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@861db74b [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@c6c109e [ acquireIncrement -> 0, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgensx931jg2231j5y3xm|2b55a0c7, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8e8ddd03 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgensx931jg2231j5y3xm|4521378b, jdbcUrl -> jdbc:mysql://localhost:3306/psyorder, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgensx931jg2231j5y3xm|6646ef14, numHelperThreads -> 3 ]
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Database ->
+       name : MySQL
+    version : 5.5.22
+      major : 5
+      minor : 5
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using default transaction strategy (direct JDBC transactions)
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic flush during beforeCompletion(): disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic session close at end of transaction: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch size: 15
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch updates for versioned data: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Scrollable result sets: enabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC3 getGeneratedKeys(): enabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection release mode: auto
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Maximum outer join fetch depth: 2
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default batch fetch size: 1
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Generate SQL with comments: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL updates by primary key: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL inserts for batching: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using ASTQueryTranslatorFactory
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query language substitutions: {}
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JPA-QL strict compliance: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Second-level cache: enabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query cache: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Optimize cache for minimal puts: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Structured second-level cache entries: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Statistics: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Deleted entity synthetic identifier rollback: disabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default entity-mode: pojo
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Named query checking : enabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] building session factory
+[2014/08/12 09:28:35][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Not binding factory to JNDI, no JNDI name configured
+[2014/08/12 09:28:37][INFO][org.displaytag.export.ExportViewFactory-61] Initializing ExportViewFactory with type={csv,excel,xml,pdf,rtf}
+[2014/08/12 09:28:37][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for pdf export. org.displaytag.export.DefaultPdfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:28:37][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for rtf export. org.displaytag.export.DefaultRtfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:28:37][INFO][org.displaytag.properties.TableProperties-536] No LocaleResolver configured.
+[2014/08/12 09:28:47][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:29:12][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-default.xml]
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts-plugin.xml]
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Parsing configuration file [struts.xml]
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ObjectFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+[2014/08/12 09:29:13][INFO][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-42] Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Hibernate Commons Annotations 3.2.0.Final
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate 3.6.0.Final
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] hibernate.properties not found
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Bytecode provider name : javassist
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] using JDK 1.4 java.sql.Timestamp handling
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] configuring from resource: /hibernate.cfg.xml
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configuration resource: /hibernate.cfg.xml
+[2014/08/12 09:29:13][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Reading mappings from resource : com/drsun/model/User.hbm.xml
+[2014/08/12 09:29:13][WARN][org.slf4j.impl.JCLLoggerAdapter-359] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Configured SessionFactory: null
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Mapping class: com.drsun.model.User -> user
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Hibernate Validator not found: ignoring
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-284] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Initializing connection provider: org.hibernate.connection.C3P0ConnectionProvider
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/psyorder
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection properties: {useUnicode=true, user=root, password=****, characterEncoding=UTF-8, charSet=UTF-8}
+[2014/08/12 09:29:13][INFO][org.slf4j.impl.JCLLoggerAdapter-263] autocommit mode: false
+[2014/08/12 09:29:13][INFO][com.mchange.v2.log.MLog$1-124] MLog clients using log4j logging.
+[2014/08/12 09:29:13][INFO][com.mchange.v2.c3p0.C3P0Registry-248] Initializing c3p0-0.9.5-pre8 [built 04-April-2014 04:20:15 -0700; debug? true; trace: 10]
+[2014/08/12 09:29:13][WARN][com.mchange.v2.c3p0.management.ActiveManagementCoordinator-77] A C3P0Registry mbean is already registered. This probably means that an application using c3p0 was undeployed, but not all PooledDataSources were closed prior to undeployment. This may lead to resource leaks over time. Please take care to close all PooledDataSources.
+[2014/08/12 09:29:13][INFO][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-522] Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@9e812e3c [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@76a4e09b [ acquireIncrement -> 0, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgensx931jg2vq51qsuc4x|6f2f605f, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 1800, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 50, maxStatementsPerConnection -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@c3ecad63 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hgensx931jg2vq51qsuc4x|7aca4663, jdbcUrl -> jdbc:mysql://localhost:3306/psyorder, properties -> {useUnicode=true, user=******, password=******, characterEncoding=UTF-8, charSet=UTF-8} ], preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hgensx931jg2vq51qsuc4x|52312c35, numHelperThreads -> 3 ]
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Database ->
+       name : MySQL
+    version : 5.5.22
+      major : 5
+      minor : 5
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 0
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using default transaction strategy (direct JDBC transactions)
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic flush during beforeCompletion(): disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Automatic session close at end of transaction: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch size: 15
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC batch updates for versioned data: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Scrollable result sets: enabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JDBC3 getGeneratedKeys(): enabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Connection release mode: auto
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Maximum outer join fetch depth: 2
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default batch fetch size: 1
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Generate SQL with comments: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL updates by primary key: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Order SQL inserts for batching: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Using ASTQueryTranslatorFactory
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query language substitutions: {}
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] JPA-QL strict compliance: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Second-level cache: enabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Query cache: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Optimize cache for minimal puts: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Structured second-level cache entries: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Statistics: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Deleted entity synthetic identifier rollback: disabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Default entity-mode: pojo
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Named query checking : enabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] building session factory
+[2014/08/12 09:29:14][INFO][org.slf4j.impl.JCLLoggerAdapter-263] Not binding factory to JNDI, no JNDI name configured
+[2014/08/12 09:29:14][INFO][org.displaytag.export.ExportViewFactory-61] Initializing ExportViewFactory with type={csv,excel,xml,pdf,rtf}
+[2014/08/12 09:29:14][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for pdf export. org.displaytag.export.DefaultPdfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:29:14][WARN][org.displaytag.export.ExportViewFactory-105] Unable to instantiate class for rtf export. org.displaytag.export.DefaultRtfExportView was found, but required libraries are missing: com/lowagie/text/Element
+[2014/08/12 09:29:14][INFO][org.displaytag.properties.TableProperties-536] No LocaleResolver configured.
+[2014/08/12 09:29:18][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:30:53][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:30:59][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:31:01][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:31:14][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:31:17][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:31:23][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:31:33][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:31:35][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!
+[2014/08/12 09:31:49][WARN][com.opensymphony.xwork2.util.logging.commons.CommonsLogger-56] Parameter [d-16544-p] didn't match acceptedPattern pattern!

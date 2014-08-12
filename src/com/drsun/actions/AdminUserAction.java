@@ -36,6 +36,11 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 		userid=Integer.parseInt(getParamid());
 		return userid;
 	}
+	
+	public int getUseridInt() {
+		
+		return userid;
+	}
 
 	public void setUserid(int userid) {
 		this.userid = userid;
@@ -62,7 +67,10 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	public String modify()
 	{
 		
-		user=userDAO.findByPrimaryKey(getUserid());
+		user=userDAO.findByPrimaryKey(getUseridInt());
+		//java.util.Date now = new java.util.Date();
+		//user.setModifytime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
+		userDAO.update(user);
 		return SUCCESS;
 	}
 	
