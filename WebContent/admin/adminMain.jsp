@@ -18,6 +18,7 @@
   <sj:head jqueryui="true"/>
   
 <title>管理系統</title>
+
 </head>
   <body role="document">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -41,10 +42,12 @@
       	<sj:dialog id="createnew" title="新增" autoOpen="false"  modal="true">
       		<!-- form of new user -->
       		<s:form id="createUserForm" action="CreateAdminUserAction" namespace="/admin" theme="bootstrap" cssClass="form-signin" >
+      			
       			<s:textfield id="username" name="name" label="使用者名稱" value="" cssClass="form-control"  required="true"/>
       			<s:textfield id="useremail" name="email" label="電子郵件" value="" cssClass="form-control" required="true" />
       			<s:textfield id="usermobile" name="mobile" label="手機號碼" value="" cssClass="form-control" />			
       			<sj:submit  value="新增" />
+      			
     		</s:form>
 			
       	</sj:dialog>
@@ -53,34 +56,23 @@
       
        <div class="panel panel-default">
         <div class="panel-heading">使用者清單</div>
-        <!--  
-  			<div class="panel-body">
-    			<p>說明: 如果有問題，請洽:  admin@drsun.com</p>
-  			</div>
-      	-->
-      	
-
-      	 <!-- Table responsive begin -->	
-          <div class="table-responsive" >
-        
-           <display:table   name="userList"  id="userrow" sort="list" pagesize="3" requestURI="" defaultsort="1" defaultorder="descending"  class="table table-striped table-hover ">
+       
+      	 <!-- Table responsive begin -->
+      	 <div class="table-responsive" >
+        <s:if test="userList.size() > 0">
+           <display:table    name="userList"  id="userrow" sort="list" pagesize="3" requestURI="" defaultsort="1" defaultorder="descending"  class="table table-striped table-hover ">
+             	
              	<display:column property="userid" title="編號" sortable="true" headerClass="sortable"/>
 				<display:column property="name" title="姓名"/>
 				<display:column property="email" title="電子郵件"/>
 				<display:column property="mobile" title="手機號碼"/>
 				<display:column property="createtime" title="建立時間"/>
-				<display:column property="modifytime" title="修改時間"/>
-		
+				<display:column property="modifytime" title="修改時間"/>				
 				
-			<display:column title="更新">
-   					 	<s:url id="modifyUserUrl" action="ModifyAdminUserDialogAction"  >
-    						<s:param name="paramid" value="%{#attr.userrow.userid}" />
-    						<s:param name="name" value="%{#attr.userrow.name}" />
-    						<s:param name="email" value="%{#attr.userrow.email}" />
-    						<s:param name="mobile" value="%{#attr.userrow.mobile}" />
-    					</s:url>
-    				<s:a href="%{modifyUserUrl}">更新</s:a>
-    		</display:column>		
+				<display:column title="更新">
+				<a href="ModifyAdminUserAction?paramid=<s:property value="%{#attr.userrow.userid}"/>">更新</a>
+				</display:column>
+				
 				<display:column title="刪除" >
    					 	<s:url id="deleteUrl" action="DeleteAdminUserAction"  >
     						<s:param name="paramid" value="%{#attr.userrow.userid}" />
@@ -90,7 +82,7 @@
 				
 				
              </display:table>
-             
+          </s:if>   
           
            
           </div> <!-- table responsive end -->
@@ -98,8 +90,8 @@
       </div>
        
     </div>
-   
 
  		
 </body>
+
 </html>

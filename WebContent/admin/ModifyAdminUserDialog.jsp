@@ -18,18 +18,11 @@
   <sj:head jqueryui="true"/>
 <title>Modify User Dialog</title>
 </head>
-<% 
-String paramid=request.getParameter("paramid");
-out.println(paramid);
-String name=request.getParameter("name");
-out.println(name);
-String email=request.getParameter("email");
-out.println(email);
-String mobile=request.getParameter("mobile");
-out.println(mobile);
-%>
-
 <body>
+
+
+User Name = <s:property value="user.name" />
+
  
   
      	

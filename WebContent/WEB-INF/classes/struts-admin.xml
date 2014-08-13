@@ -52,14 +52,10 @@
 		<!-- user modify action -->  
 		<action name="ModifyAdminUserAction" class="com.drsun.actions.AdminUserAction" method="modify">
 			<interceptor-ref name="AdminloginStack" />
-			<result name="success" type="redirect">AdminUserAction.action</result>
+			<result name="success" >/admin/ModifyAdminUserDialog.jsp</result>
 		</action>
 		
-		<!-- user modify action -->  
-		<action name="ModifyAdminUserDialogAction" class="com.drsun.actions.AdminUserAction" method="dialog">
-			<interceptor-ref name="AdminloginStack" />
-			<result name="success" type="redirect">/admin/ModifyAdminUserDialog.jsp?paramid=${paramid}&amp;name=${name}&amp;email=${email}&amp;mobile=${mobile}</result>
-		</action>
+		
 	</package>
 	
 </struts>	

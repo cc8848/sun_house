@@ -2,12 +2,6 @@ package com.drsun.actions;
 
 import java.util.ArrayList;
 import java.util.List;
-
-
-
-
-
-
 import com.drsun.model.User;
 import com.drsun.model.UserDAO;
 import com.drsun.model.UserHibernateDAO;
@@ -22,11 +16,13 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private User user = new User();
+	private User user=new User() ;
+	
 	private List<User> userList = new ArrayList<User>();
 	private UserDAO userDAO = new UserHibernateDAO();
 	private int  userid;
 	private String paramid;
+	
 
 	public String getParamid() {
 		return paramid;
@@ -41,11 +37,6 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 		return userid;
 	}
 	
-	public int getUseridInt() {
-		
-		return userid;
-	}
-
 	public void setUserid(int userid) {
 		this.userid = userid;
 	}
@@ -56,8 +47,11 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	}
 	
 	public String add(){
+		
+		//createtime
 		java.util.Date now = new java.util.Date();
 		user.setCreatetime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
+		
 		userDAO.save(user);
 		return SUCCESS;
 	}
@@ -72,19 +66,12 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	{
 		
 		user=userDAO.findByPrimaryKey(getUserid());
-		java.util.Date now = new java.util.Date();
-		user.setModifytime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
-		//user.setName("bill");
-		userDAO.update(user);
+		
+		System.out.println(user.getName());
 		return SUCCESS;
 	}
 	
-	public String dialog(){
-		
-		 
-        System.out.println("paramid: "+this.paramid);     
-		return SUCCESS;
-	}
+	
 	
 	public String findAll(){
 		userList = userDAO.findAll();
