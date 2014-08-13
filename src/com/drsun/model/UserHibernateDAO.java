@@ -1,14 +1,21 @@
 package com.drsun.model;
 
 import java.util.List;
+
 import org.apache.log4j.Logger;
+
 import com.drsun.helper.HibernateUtil;
+import com.drsun.helper.PageBean;
+
 import org.hibernate.*;
 
 public class UserHibernateDAO implements UserDAO{
 	
 	
 	Logger logger = Logger.getLogger(UserHibernateDAO.class);
+	List<User> userList = null;
+	User user = null;
+	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	
 	@Override
 	public int save(User user) {
@@ -16,7 +23,7 @@ public class UserHibernateDAO implements UserDAO{
 		  int updateCount = 0;
 	        
 	        
-	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        
 	        Transaction tx=null;
 	        try
 	        {
@@ -41,7 +48,7 @@ public class UserHibernateDAO implements UserDAO{
 		
 		 int updateCount = 0;
 	       
-	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        //Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {
@@ -67,9 +74,9 @@ public class UserHibernateDAO implements UserDAO{
 	@Override
 	public List<User> findAll() {
 		
-		 List<User> userList = null;
+		 userList = null;
 	        
-	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        //Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {
@@ -93,9 +100,9 @@ public class UserHibernateDAO implements UserDAO{
 	@Override
 	public User findByPrimaryKey(int userId) {
 		 
-		 User user = null;
+		 user = null;
 	       
-	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        //Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {
@@ -120,7 +127,7 @@ public class UserHibernateDAO implements UserDAO{
 	public int update(User user) {
 		 int updateCount = 0;
 	        
-	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        //Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {
@@ -140,6 +147,17 @@ public class UserHibernateDAO implements UserDAO{
 
 	        
 	        return updateCount;
+	}
+
+	@Override
+	public PageBean getPageBean(int index, int pageSize) {
+		PageBean pb=new PageBean();
+		pb.setIndex(index);
+		pb.setPageSize(pageSize);
+		pb.setTotal(userList.size());
+		List<User> pageData=userList.subList((index-1)*pageSize, index*pageSize);
+		pb.setData(pageData);
+		return pb;
 	}
 
 	
