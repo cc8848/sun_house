@@ -38,7 +38,7 @@
 	 <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-      	<sj:dialog id="createnew" title="新增" autoOpen="false" maxHeight="true" maxWidth="true" modal="true">
+      	<sj:dialog id="createnew" title="新增" autoOpen="false"  modal="true">
       		<!-- form of new user -->
       		<s:form id="createUserForm" action="CreateAdminUserAction" namespace="/admin" theme="bootstrap" cssClass="form-signin" >
       			<s:textfield id="username" name="name" label="使用者名稱" value="" cssClass="form-control"  required="true"/>
@@ -58,6 +58,8 @@
     			<p>說明: 如果有問題，請洽:  admin@drsun.com</p>
   			</div>
       	-->
+      	
+
       	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
         
@@ -68,19 +70,17 @@
 				<display:column property="mobile" title="手機號碼"/>
 				<display:column property="createtime" title="建立時間"/>
 				<display:column property="modifytime" title="修改時間"/>
-				<!--  
-				<display:column title="更新" href="preUpdateAction.do" paramId="userid"  paramProperty="userid" >
-				編輯
-				</display:column>
-				-->
-				<display:column title="編輯"  >
+		
 				
-    			<a href="editAdminUser.jsp?selectedIndex=${userrow_rowNum}">編輯</a>
-				
-				</display:column>
-				
-				
-				
+			<display:column title="更新">
+   					 	<s:url id="modifyUserUrl" action="ModifyAdminUserDialogAction"  >
+    						<s:param name="paramid" value="%{#attr.userrow.userid}" />
+    						<s:param name="name" value="%{#attr.userrow.name}" />
+    						<s:param name="email" value="%{#attr.userrow.email}" />
+    						<s:param name="mobile" value="%{#attr.userrow.mobile}" />
+    					</s:url>
+    				<s:a href="%{modifyUserUrl}">更新</s:a>
+    		</display:column>		
 				<display:column title="刪除" >
    					 	<s:url id="deleteUrl" action="DeleteAdminUserAction"  >
     						<s:param name="paramid" value="%{#attr.userrow.userid}" />

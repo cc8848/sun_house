@@ -54,6 +54,12 @@
 			<interceptor-ref name="AdminloginStack" />
 			<result name="success" type="redirect">AdminUserAction.action</result>
 		</action>
+		
+		<!-- user modify action -->  
+		<action name="ModifyAdminUserDialogAction" class="com.drsun.actions.AdminUserAction" method="dialog">
+			<interceptor-ref name="AdminloginStack" />
+			<result name="success" type="redirect">/admin/ModifyAdminUserDialog.jsp?paramid=${paramid}&amp;name=${name}&amp;email=${email}&amp;mobile=${mobile}</result>
+		</action>
 	</package>
 	
 </struts>	
