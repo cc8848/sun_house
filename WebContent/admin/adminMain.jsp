@@ -17,7 +17,7 @@
  <link href="../css/signin.css" rel="stylesheet"> 
   <sj:head jqueryui="true"/>
   
-<title>管理系統</title>
+<title>管理系統</title>  
 </head>
   <body role="document">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
