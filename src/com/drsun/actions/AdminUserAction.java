@@ -76,7 +76,7 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 		user2=userDAO.findByPrimaryKey(getUserid());
 		user2.setEmail(user.getEmail());
 		user2.setName(user.getName());
-		user2.setMobile(user.getCreatetime());
+		user2.setMobile(user.getMobile());
 		
 		java.util.Date now = new java.util.Date();
 		user2.setModifytime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
