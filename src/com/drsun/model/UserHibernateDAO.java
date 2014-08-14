@@ -15,7 +15,7 @@ public class UserHibernateDAO implements UserDAO{
 	Logger logger = Logger.getLogger(UserHibernateDAO.class);
 	List<User> userList = null;
 	User user = null;
-	Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	
 	
 	@Override
 	public int save(User user) {
@@ -23,7 +23,7 @@ public class UserHibernateDAO implements UserDAO{
 		  int updateCount = 0;
 	        
 	        
-	        
+		  Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {
@@ -48,7 +48,7 @@ public class UserHibernateDAO implements UserDAO{
 		
 		 int updateCount = 0;
 	       
-	        //Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {
@@ -76,7 +76,7 @@ public class UserHibernateDAO implements UserDAO{
 		
 		 userList = null;
 	        
-	        //Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {
@@ -102,7 +102,7 @@ public class UserHibernateDAO implements UserDAO{
 		 
 		 user = null;
 	       
-	        //Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {
@@ -127,7 +127,7 @@ public class UserHibernateDAO implements UserDAO{
 	public int update(User user) {
 		 int updateCount = 0;
 	        
-	        //Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try
 	        {

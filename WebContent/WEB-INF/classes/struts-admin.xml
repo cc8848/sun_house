@@ -55,11 +55,10 @@
 			<result name="success" >AdminUserAction.action</result>
 		</action>
 		<!-- user table action -->
-		<action name="AdminUserTableAction" class="com.drsun.actions.AdminUserTableAction" method="delete">
+		<action name="AdminUserTableAction" class="com.drsun.actions.AdminUserTableAction" method="execute">
 			<interceptor-ref name="AdminloginStack" />
-			<result type="json" />
+			<result name="success">AdminUserAction.action</result>
 		</action>
-		
 		
 	</package>
 	
