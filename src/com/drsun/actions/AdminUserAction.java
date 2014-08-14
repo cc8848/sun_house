@@ -2,6 +2,9 @@ package com.drsun.actions;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
 import com.drsun.model.User;
 import com.drsun.model.UserDAO;
 import com.drsun.model.UserHibernateDAO;
@@ -17,11 +20,16 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	 */
 	private static final long serialVersionUID = 1L;
 	private User user=new User() ;
+	private User user2=new User() ;
 	
 	private List<User> userList = new ArrayList<User>();
 	private UserDAO userDAO = new UserHibernateDAO();
 	private int  userid;
 	private String paramid;
+	private String email;
+	private String mobile;
+	private String name;
+	
 	
 
 	public String getParamid() {
@@ -65,8 +73,14 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	public String modify()
 	{
 		
-		user=userDAO.findByPrimaryKey(getUserid());
+		user2=userDAO.findByPrimaryKey(getUserid());
+		user2.setEmail(user.getEmail());
+		user2.setName(user.getName());
+		user2.setMobile(user.getCreatetime());
 		
+		java.util.Date now = new java.util.Date();
+		user2.setModifytime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
+		userDAO.update(user2);
 		
 		return SUCCESS;
 	}

@@ -52,13 +52,9 @@
 		<!-- user modify action -->  
 		<action name="ModifyAdminUserAction" class="com.drsun.actions.AdminUserAction" method="modify">
 			<interceptor-ref name="AdminloginStack" />
-			<result name="success" >AdminUserAction.action</result>
+			<result name="success" type="redirect">AdminUserAction.action</result>
 		</action>
-		<!-- user table action -->
-		<action name="AdminUserTableAction" class="com.drsun.actions.AdminUserTableAction" method="execute">
-			<interceptor-ref name="AdminloginStack" />
-			<result name="success">AdminUserAction.action</result>
-		</action>
+		
 		
 	</package>
 	

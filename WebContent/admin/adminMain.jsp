@@ -74,7 +74,7 @@
 				
    				<sj:dialog id="modifydialog" title="修改" autoOpen="false"  modal="true">
       				<s:form id="modifyUserForm" action="ModifyAdminUserAction" namespace="/admin" theme="bootstrap" cssClass="form-signin" >
-      					<s:textfield id="userid" name="userid" label="編號" value="%{#attr.userrow.userid}" cssClass="form-control"  required="true"/>
+      					<s:hidden id="paramid" name="paramid" label="編號" value="%{#attr.userrow.userid}" cssClass="form-control"  required="true"/>
       					<s:textfield id="username" name="name" label="使用者名稱" value="%{#attr.userrow.name}"  cssClass="form-control"  required="true"/>
       					<s:textfield id="useremail" name="email" label="電子郵件" value="%{#attr.userrow.email}" cssClass="form-control" required="true" />
       					<s:textfield id="usermobile" name="mobile" label="手機號碼" value="%{#attr.userrow.mobile}"  cssClass="form-control" />			
