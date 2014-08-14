@@ -1,6 +1,7 @@
 <%@taglib uri="/struts-tags" prefix="s"%>
 <%@taglib prefix="display" uri="http://displaytag.sf.net"%>
 <%@ taglib prefix="sj" uri="/struts-jquery-tags"%>
+<%@ taglib prefix="sjc" uri="/struts-jquery-chart-tags"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -98,6 +99,38 @@
           
            
           </div> <!-- table responsive end -->
+       <!-- Chart  -->   
+          <sjc:chart
+        id="chartPie"
+        cssStyle="width: 600px; height: 400px;"
+        pie="true"
+        pieLabel="true"
+        autoResize="true"
+        draggable="true"
+    >
+        <sjc:chartData
+                id="pieSerie1"
+                label="科技業"
+                data="40"
+        />
+        <sjc:chartData
+                id="pieSerie2"
+                label="服務業"
+                data="3"
+        />
+        <sjc:chartData
+                id="pieSerie3"
+                label="軍公教"
+                data="17"
+        />
+        <sjc:chartData
+                id="pieSerie4"
+                label="其他"
+                data="27"
+        />
+    </sjc:chart><!-- chart end -->
+          
+          
           </div> <!-- panel end -->
       </div>
        
