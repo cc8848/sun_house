@@ -7,6 +7,7 @@
         <id name="userid">
             <generator class="native"/>
         </id>
+    <property name="nid"/>
     <property name="name"/>
     <property name="email"/>
     <property name="mobile"/>

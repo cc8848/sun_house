@@ -43,6 +43,7 @@
       		<!-- form of new user -->
       		<s:form id="createUserForm" action="CreateAdminUserAction" namespace="/admin" theme="bootstrap" cssClass="form-signin" >
       			<s:textfield id="username" name="name" label="使用者名稱" value="" cssClass="form-control"  required="true"/>
+      			<s:textfield id="nid" name="nid" label="身分證號碼" value=""  cssClass="form-control"  required="true"/>
       			<s:textfield id="useremail" name="email" label="電子郵件" value="" cssClass="form-control" required="true" />
       			<s:textfield id="usermobile" name="mobile" label="手機號碼" value="" cssClass="form-control" />			
       			<sj:submit  value="新增" />
@@ -66,6 +67,7 @@
         
            <display:table   name="userList"  uid="userrow" sort="list" pagesize="3" requestURI="" defaultsort="1" defaultorder="descending"  class="table table-striped table-hover ">
              	<display:column property="userid" title="編號" sortable="true" headerClass="sortable"/>
+				<display:column property="nid" title="身分證號碼"/>
 				<display:column property="name" title="姓名"/>
 				<display:column property="email" title="電子郵件"/>
 				<display:column property="mobile" title="手機號碼"/>
@@ -76,6 +78,7 @@
    				<sj:dialog id="modifydialog" title="修改" autoOpen="false"  modal="true">
       				<s:form id="modifyUserForm" action="ModifyAdminUserAction" namespace="/admin" theme="bootstrap" cssClass="form-signin" >
       					<s:hidden id="paramid" name="paramid" label="編號" value="%{#attr.userrow.userid}" cssClass="form-control"  required="true"/>
+      					<s:textfield id="nid" name="nid" label="身分證號碼" value="%{#attr.userrow.nid}"  cssClass="form-control"  required="true"/>
       					<s:textfield id="username" name="name" label="使用者名稱" value="%{#attr.userrow.name}"  cssClass="form-control"  required="true"/>
       					<s:textfield id="useremail" name="email" label="電子郵件" value="%{#attr.userrow.email}" cssClass="form-control" required="true" />
       					<s:textfield id="usermobile" name="mobile" label="手機號碼" value="%{#attr.userrow.mobile}"  cssClass="form-control" />			

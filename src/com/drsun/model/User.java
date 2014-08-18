@@ -5,17 +5,18 @@ import java.sql.Date;
 public class User implements java.io.Serializable{
 	
 	private int userid;
+	private String nid;
 	private String name;
 	private String email;
 	private String mobile;
 	private String createtime;
-	
 	private String modifytime;
 	
 	public User(){}
 	
-	public User(int userid,String name,String email,String mobile,String createtime,String modifytime){
+	public User(int userid,String nid,String name,String email,String mobile,String createtime,String modifytime){
 		this.userid=userid;
+		this.nid=nid;
 		this.name=name;
 		this.mobile=mobile;
 		this.email=email;
@@ -24,6 +25,14 @@ public class User implements java.io.Serializable{
 	}
 	
 	
+	public String getNid() {
+		return nid;
+	}
+
+	public void setNid(String nid) {
+		this.nid = nid;
+	}
+
 	public int getUserid() {
 		return userid;
 	}

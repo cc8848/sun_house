@@ -149,6 +149,31 @@ public class UserHibernateDAO implements UserDAO{
 	        return updateCount;
 	}
 
+	@Override
+	public User findByNid(String nid) {
+		 user = null;
+	       
+	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+	        Transaction tx=null;
+	        try
+	        {
+	            tx=session.beginTransaction();
+	            user = (User)session.get(User.class,nid);
+	            tx.commit();
+	           
+	        }
+	        catch(Exception ex)
+	        {
+	            if(tx!=null) tx.rollback();
+	            System.out.println(ex.getMessage());
+	           
+	        }
+	    
+	        
+
+	        return user;
+	}
+
 	
 
 	

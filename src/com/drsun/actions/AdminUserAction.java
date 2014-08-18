@@ -25,12 +25,21 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	private List<User> userList = new ArrayList<User>();
 	private UserDAO userDAO = new UserHibernateDAO();
 	private int  userid;
+	private String  nid;
 	private String paramid;
 	private String email;
 	private String mobile;
 	private String name;
 	
 	
+	
+	public String getNid() {
+		return nid;
+	}
+
+	public void setNid(String nid) {
+		this.nid = nid;
+	}
 
 	public String getParamid() {
 		return paramid;
@@ -77,6 +86,7 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 		user2.setEmail(user.getEmail());
 		user2.setName(user.getName());
 		user2.setMobile(user.getMobile());
+		user2.setNid(user.getNid());
 		
 		java.util.Date now = new java.util.Date();
 		user2.setModifytime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
