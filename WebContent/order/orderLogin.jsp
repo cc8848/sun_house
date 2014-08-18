@@ -28,7 +28,7 @@
 <s:fielderror theme="bootstrap"/>
 
 	<s:form id="orderidLoginForm" action="OrderloginUser" namespace="/order" theme="bootstrap"  cssClass="form-signin" >
-		<s:textfield name="nid" placeholder="身分證號碼 "  label="身分證號碼" cssClass="form-control" />
+		<s:textfield name="nid" placeholder="身分證號碼 "  label="身分證號碼" cssClass="form-control" required="true"/>
 		<s:submit  cssClass="btn btn-primary btn-block" value="登入" />
 	</s:form>
 </body>

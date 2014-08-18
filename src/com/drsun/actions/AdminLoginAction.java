@@ -37,7 +37,7 @@ public class AdminLoginAction extends ActionSupport implements SessionAware {
 			session.put("adminloginId", userName);
 			return SUCCESS;
 		} else {
-			addActionError("請輸入適當的管理者名稱與密碼。");
+			addActionMessage("請輸入適當的管理者名稱與密碼。");
 			return LOGIN;
 		}
 	}
