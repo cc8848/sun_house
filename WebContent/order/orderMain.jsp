@@ -47,11 +47,12 @@
       	 <!-- Table responsive begin -->	
           <div class="table-responsive" >
         
-             <display:table   name="userList"   pagesize="3" requestURI="" class="table table-striped table-hover ">
-             	<display:column property="userid" title="編號"/>
-				<display:column property="name" title="姓名"/>
-				<display:column property="email" title="電子郵件"/>
-				<display:column property="mobile" title="手機號碼"/>
+             <display:table   name="orderList"   pagesize="3" requestURI="" class="table table-striped table-hover ">
+             	<display:column property="orderid" title="預約編號"/>
+             	<display:column property="userid" title="使用者編號"/>
+             	<display:column property="number" title="預約號碼"/>
+				<display:column property="status" title="預約狀態"/>
+				<display:column property="ordertime" title="預約時間"/>
 				<display:column property="createtime" title="建立時間"/>
 				<display:column property="modifytime" title="修改時間"/>
              </display:table>

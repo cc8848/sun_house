@@ -9,13 +9,13 @@ public class AdminLoginInterceptor implements Interceptor {
 	private static final long serialVersionUID = 1L;
 	@Override
 	public void destroy() {
-		// TODO Auto-generated method stub
+		
 
 	}
 
 	@Override
 	public void init() {
-		// TODO Auto-generated method stub
+		
 
 	}
 

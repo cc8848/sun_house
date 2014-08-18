@@ -33,7 +33,7 @@ public class OrderLoginAction extends ActionSupport implements SessionAware {
 	// ---------------------------- Login register user
 
 	public String loginRegisterUser() {
-		if (userName.equals("admin") && password.equals("password")) {
+		if (userName.equals("user") && password.equals("password")) {
 			session.put("loginId", userName);
 			return SUCCESS;
 		} else {
