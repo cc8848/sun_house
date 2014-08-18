@@ -45,12 +45,8 @@ public class OrderLoginAction extends ActionSupport implements SessionAware {
 	public String loginRegisterUser() {
 				
 		user=userDAO.findByNid(this.getNid());
-		//userName=user.getName();
-		System.out.println("Nid="+this.getNid());
-		System.out.println("DB Nid="+user.getNid());
-		
 		//if (userName.equals("user") && password.equals("password")) {
-		if (user.getNid().equals(this.getNid())) {
+		if (user.getNid().equals(this.getNid())) {//比對身分證號碼與資料庫是否吻合
 			session.put("loginId", user.getName());
 			return SUCCESS;
 		} else {

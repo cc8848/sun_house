@@ -161,11 +161,11 @@ public class UserHibernateDAO implements UserDAO{
 	        try
 	        {
 	            tx=session.beginTransaction();
-	            //user = (User)session.get(User.class,nid);
 	            @SuppressWarnings("unchecked")
-				List<User> Users = session.createQuery("FROM User u where u.nid='"+nid+"'").list(); 
+	            //身分證號碼一定是唯一。
+				List<User> Users = session.createQuery("FROM User u where u.nid='"+nid+"'").list();//記得要加' 
 	            for (Iterator<User> iterator = 
-	                              Users.iterator(); iterator.hasNext();){
+	                            Users.iterator(); iterator.hasNext();){
 	               user = (User) iterator.next(); 
 	             
 	            }
