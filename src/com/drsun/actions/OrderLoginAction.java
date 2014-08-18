@@ -44,13 +44,14 @@ public class OrderLoginAction extends ActionSupport implements SessionAware {
 
 	public String loginRegisterUser() {
 				
-		user=userDAO.findByNid(this.nid);
-		userName=user.getName();
-		System.out.println("userName="+userName);
+		user=userDAO.findByNid(this.getNid());
+		//userName=user.getName();
+		System.out.println("Nid="+this.getNid());
+		System.out.println("DB Nid="+user.getNid());
 		
 		//if (userName.equals("user") && password.equals("password")) {
-		if (!userName.equals("王柏建")) {
-			session.put("loginId", userName);
+		if (user.getNid().equals(this.getNid())) {
+			session.put("loginId", user.getName());
 			return SUCCESS;
 		} else {
 			addActionError("請輸入適當的身分證號碼。");

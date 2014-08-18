@@ -9,6 +9,7 @@
         </id>
         
     <property name="userid"/>
+    <property name="number"/>
     <property name="status"/>
     <property name="ordertime"/>
     <property name="createtime" />

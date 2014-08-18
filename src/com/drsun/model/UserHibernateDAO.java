@@ -1,10 +1,13 @@
 package com.drsun.model;
 
+import java.util.Iterator;
 import java.util.List;
 
 import org.apache.log4j.Logger;
 
 import com.drsun.helper.HibernateUtil;
+
+
 
 
 import org.hibernate.*;
@@ -158,7 +161,14 @@ public class UserHibernateDAO implements UserDAO{
 	        try
 	        {
 	            tx=session.beginTransaction();
-	            user = (User)session.get(User.class,nid);
+	            //user = (User)session.get(User.class,nid);
+	            @SuppressWarnings("unchecked")
+				List<User> Users = session.createQuery("FROM User u where u.nid='"+nid+"'").list(); 
+	            for (Iterator<User> iterator = 
+	                              Users.iterator(); iterator.hasNext();){
+	               user = (User) iterator.next(); 
+	             
+	            }
 	            tx.commit();
 	           
 	        }
