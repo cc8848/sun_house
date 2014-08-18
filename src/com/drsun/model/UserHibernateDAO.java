@@ -151,8 +151,8 @@ public class UserHibernateDAO implements UserDAO{
 
 	@Override
 	public User findByNid(String nid) {
-		 user = null;
-	       
+			
+			user = null;
 	        Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 	        Transaction tx=null;
 	        try

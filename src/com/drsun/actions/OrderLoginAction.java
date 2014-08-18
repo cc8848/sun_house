@@ -4,6 +4,9 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.drsun.model.User;
+import com.drsun.model.UserDAO;
+import com.drsun.model.UserHibernateDAO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class OrderLoginAction extends ActionSupport implements SessionAware {
@@ -11,15 +14,22 @@ public class OrderLoginAction extends ActionSupport implements SessionAware {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private String userName;
-	private String password;
+	private String userName=null;
+	private String password=null;
+	private String nid=null;//身分證號碼
+	private UserDAO userDAO = new UserHibernateDAO();
+	private User user;
 	private Map<String, Object> session;
-
 	
-
-	public String home() {
-		return SUCCESS;
+	
+	public String getNid() {
+		return nid;
 	}
+
+	public void setNid(String nid) {
+		this.nid = nid;
+	}
+
 
 	// ---------------------------- Log Out register user
 
@@ -33,11 +43,17 @@ public class OrderLoginAction extends ActionSupport implements SessionAware {
 	// ---------------------------- Login register user
 
 	public String loginRegisterUser() {
-		if (userName.equals("user") && password.equals("password")) {
+				
+		user=userDAO.findByNid(this.nid);
+		userName=user.getName();
+		System.out.println("userName="+userName);
+		
+		//if (userName.equals("user") && password.equals("password")) {
+		if (!userName.equals("王柏建")) {
 			session.put("loginId", userName);
 			return SUCCESS;
 		} else {
-			addActionError("請輸入適當的使用者名稱與密碼。");
+			addActionError("請輸入適當的身分證號碼。");
 			return LOGIN;
 		}
 	}
