@@ -28,8 +28,8 @@
 <s:fielderror theme="bootstrap"/>
 
 	<s:form id="idLoginForm" action="AdminloginUser" namespace="/admin" theme="bootstrap"  cssClass="form-signin" >
-		<s:textfield name="userName" placeholder="Username"  label="管理者名稱" cssClass="form-control" />
-		<s:password name="password" placeholder="Password"  label="密碼"  cssClass="form-control" />
+		<s:textfield name="userName" placeholder="Username"  label="管理者名稱" cssClass="form-control"  required="true"/>
+		<s:password name="password" placeholder="Password"  label="密碼"  cssClass="form-control" required="true"/>
 		<s:submit  cssClass="btn btn-primary btn-block" value="登入" />
 	</s:form>
 </body>
