@@ -5,7 +5,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 import com.drsun.helper.HibernateUtil;
-import com.drsun.helper.PageBean;
+
 
 import org.hibernate.*;
 
@@ -149,16 +149,7 @@ public class UserHibernateDAO implements UserDAO{
 	        return updateCount;
 	}
 
-	@Override
-	public PageBean getPageBean(int index, int pageSize) {
-		PageBean pb=new PageBean();
-		pb.setIndex(index);
-		pb.setPageSize(pageSize);
-		pb.setTotal(userList.size());
-		List<User> pageData=userList.subList((index-1)*pageSize, index*pageSize);
-		pb.setData(pageData);
-		return pb;
-	}
+	
 
 	
 }

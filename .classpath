@@ -52,8 +52,6 @@
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/displaytag-portlet-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-json-plugin-2.3.16.3.jar"/>
-	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-jquery-grid-plugin-3.7.1.jar"/>
-	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/s2crud/WebContent/WEB-INF/lib/struts2-convention-plugin-2.1.6.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/xwork-core-2.3.16.3.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-jquery-chart-plugin-3.7.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
