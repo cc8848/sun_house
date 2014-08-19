@@ -36,6 +36,12 @@
 		<action name="logOut" class="com.drsun.actions.OrderLoginAction" method="logOut">
 			<result name="login">/order/orderLogin.jsp</result>
 		</action>
+		
+		<!-- order create action -->  
+		<action name="CreateOrderUserAction" class="com.drsun.actions.OrderUserAction" method="add">
+			<interceptor-ref name="OrderloginStack" />
+			<result name="success" type="redirect">OrderUserAction.action</result>
+		</action>
 	</package>
 	
 </struts>	

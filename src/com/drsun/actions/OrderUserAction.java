@@ -25,6 +25,10 @@ public class OrderUserAction extends ActionSupport  implements  ModelDriven<User
 	}
 	
 	public String add(){
+		
+		//createtime
+		java.util.Date now = new java.util.Date();
+		user.setCreatetime(new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(now));
 		userDAO.save(user);
 		return SUCCESS;
 	}

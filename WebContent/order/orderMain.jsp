@@ -1,5 +1,6 @@
 <%@taglib uri="/struts-tags" prefix="s"%>
 <%@taglib prefix="display" uri="http://displaytag.sf.net"%>
+<%@ taglib prefix="sj" uri="/struts-jquery-tags"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -14,6 +15,7 @@
 <script type="text/JavaScript" src="../js/ie/ie10-viewport-bug-workaround.js"></script>  
 <script type="text/JavaScript" src="../js/ie/ie-emulation-modes-warning.js"></script> 
  <link href="../css/signin.css" rel="stylesheet">
+ <sj:head jqueryui="true"/>
 <title>預約系統</title>
 </head>
   <body role="document">
@@ -35,7 +37,16 @@
 	 <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h3> <s:property value="%{#session['loginId']}"/> 您好<a class="btn btn-primary btn-lg" role="button">預約</a></h3>
+      
+      	<sj:dialog id="neworder" title="預約" autoOpen="false"  modal="true">
+      		<!-- form of new order -->
+      		<s:form id="createOrderUserForm" action="CreateOrderUserAction" namespace="/order" theme="bootstrap" cssClass="form-signin" >
+      			<s:textfield id="nid" name="nid" label="身分證號碼" value=""  cssClass="form-control"  required="true"/>
+      			<sj:submit  value="預約" />
+    		</s:form>
+		</sj:dialog>
+		
+        <h3> <s:property value="%{#session['loginId']}"/> 您好<sj:a cssClass="btn btn-primary btn-lg"  openDialog="neworder">預約</sj:a></h3>
 		
       
        <div class="panel panel-default">
