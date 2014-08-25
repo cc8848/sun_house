@@ -9,13 +9,11 @@ import org.hibernate.*;
 public class HibernateFilter implements Filter
 {
     private SessionFactory factory = null;
-    private FilterConfig config = null;
     @Override
     public void destroy() {}
 
     public void init(FilterConfig config) throws ServletException
     {
-        this.config=config;
         factory=HibernateUtil.getSessionFactory();
     }
 

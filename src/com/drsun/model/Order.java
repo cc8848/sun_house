@@ -1,9 +1,13 @@
 package com.drsun.model;
 
-import java.sql.Date;
+
 
 public class Order implements java.io.Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int orderid;
 	private int userid;
 	private int number;

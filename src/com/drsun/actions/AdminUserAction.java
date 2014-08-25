@@ -2,9 +2,6 @@ package com.drsun.actions;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.servlet.http.HttpServletRequest;
-
 import com.drsun.model.User;
 import com.drsun.model.UserDAO;
 import com.drsun.model.UserHibernateDAO;
@@ -27,9 +24,7 @@ public class AdminUserAction extends ActionSupport  implements  ModelDriven<User
 	private int  userid;
 	private String  nid;
 	private String paramid;
-	private String email;
-	private String mobile;
-	private String name;
+
 	
 	
 	
