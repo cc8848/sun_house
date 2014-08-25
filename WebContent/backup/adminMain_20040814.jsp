@@ -20,8 +20,8 @@
 <title>管理系統</title>
 
 </head>
-  <body role="document">
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <body >
+  <div class="navbar navbar-inverse navbar-fixed-top" >
       <div class="container">
         <div class="navbar-header">
          
