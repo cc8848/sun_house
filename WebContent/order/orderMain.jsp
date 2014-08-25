@@ -18,8 +18,8 @@
  <sj:head jqueryui="true"/>
 <title>預約系統</title>
 </head>
-  <body role="document">
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <body >
+  <div class="navbar navbar-inverse navbar-fixed-top" >
       <div class="container">
         <div class="navbar-header">
          
@@ -27,8 +27,8 @@
         </div>
         <div class="navbar-collapse collapse">
         
-          <form class="navbar-form navbar-right" role="form" >
-          <a class="btn btn-primary btn-lg" role="button" href="<s:url action="logOut"/>">登出系統</a>
+          <form class="navbar-form navbar-right" >
+          <a class="btn btn-primary btn-lg"  href="<s:url action="logOut"/>">登出系統</a>
           </form>
           
         </div><!--/.navbar-collapse -->

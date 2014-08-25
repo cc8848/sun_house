@@ -46,13 +46,25 @@
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/slf4j-log4j12-1.7.7.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-bootstrap-plugin-1.7.0.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-core-2.3.16.3.jar"/>
-	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-jquery-plugin-3.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-jquery-plugin-3.7.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/c3p0-0.9.5-pre8.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/mchange-commons-java-0.2.7.jar"/>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/displaytag-portlet-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/json-lib-2.3-jdk15.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-json-plugin-2.3.16.3.jar"/>
-	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/xwork-core-2.3.16.3.jar"/>
+	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/xwork-core-2.3.16.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Application/eclipse/workspace/doctor-sun/WebContent/WEB-INF/lib/struts2-jquery-chart-plugin-3.7.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

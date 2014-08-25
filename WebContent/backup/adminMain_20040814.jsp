@@ -29,8 +29,8 @@
         </div>
         <div class="navbar-collapse collapse">
         
-          <form class="navbar-form navbar-right" role="form" >
-          <a class="btn btn-primary btn-lg" role="button" href="<s:url action="logOut"/>">登出系統</a>
+          <form class="navbar-form navbar-right" >
+          <a class="btn btn-primary btn-lg" href="<s:url action="logOut"/>">登出系統</a>
           </form>
           
         </div><!--/.navbar-collapse -->
