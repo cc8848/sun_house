@@ -13,6 +13,7 @@ doctor-sun 孫醫生的網站
 
 2014.07.22 加載 預約系統-strus2 bootsrap  
 
-2014.07.19 完成 網站首頁  
+2014.07.19 完成 網站首頁  clinic-drsun1962.rhcloud.com 
 
-drsunhouse@gmail.com   1962
+drsunhouse@gmail.com   
++1962
